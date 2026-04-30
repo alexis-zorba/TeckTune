@@ -1,0 +1,6 @@
+{
+  "name": "TeckTune",
+  "description": "Visualizza e confronta le scale musicali sulla tastiera della chitarra.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

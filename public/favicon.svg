@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Plectrum shape -->
+  <path d="M32 4 C46 6 56 19 56 34 C56 47 48 56 32 62 C16 56 8 47 8 34 C8 19 18 6 32 4Z" 
+        fill="#F27D26" stroke="#F27D26" stroke-width="2" stroke-linejoin="round"/>
+  
+  <!-- Lightning bolt -->
+  <path d="M34 16 L26 30 L32 30 L28 48 L40 28 L33 28 Z" 
+        fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+</svg>
