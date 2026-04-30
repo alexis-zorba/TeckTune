@@ -1,9 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
-  <!-- Plectrum shape (guitar pick) -->
-  <path d="M100 12 C145 20 180 60 178 110 C176 155 155 185 100 195 C45 185 24 155 22 110 C20 60 55 20 100 12Z" 
-        fill="#F27D26" stroke="#F27D26" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Plectrum shape: triangular guitar pick with rounded corners, tip facing down -->
+  <path d="M100 12 
+           C135 12, 165 30, 172 70 
+           C180 115, 160 155, 130 175 
+           C115 183, 105 186, 100 186 
+           C95 186, 85 183, 70 175 
+           C40 155, 20 115, 28 70 
+           C35 30, 65 12, 100 12Z" 
+        fill="#F27D26"/>
   
-  <!-- Lightning bolt inside the pick -->
-  <path d="M112 52 L84 98 L102 98 L88 148 L128 92 L108 92 Z" 
-        fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round"/>
+  <!-- Lightning bolt centered inside the pick -->
+  <path d="M110 48 L80 98 L100 98 L85 158 L128 88 L106 88Z" 
+        fill="#FFFFFF"/>
 </svg>
