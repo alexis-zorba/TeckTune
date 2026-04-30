@@ -1,0 +1,165 @@
+{
+  "app": {
+    "header": {
+      "tune": "Afinación:",
+      "stringTitles": {
+        "eLow": "6ª - Mi Grave",
+        "a": "5ª - La",
+        "d": "4ª - Re",
+        "g": "3ª - Sol",
+        "b": "2ª - Si",
+        "eHigh": "1ª - Mi Agudo"
+      },
+      "intervals": "Intervalos",
+      "notes": "Notas"
+    },
+    "scaleCard": {
+      "selectedScale": "Escala Seleccionada",
+      "scaleABase": "Escala A (Base)",
+      "scaleBTarget": "Escala B (Objetivo)",
+      "rootNote": "Nota Fundamental",
+      "scaleType": "Tipo de Escala",
+      "listenScale1": "Escuchar Escala 1",
+      "listenScale2": "Escuchar Escala 2"
+    },
+    "mode": {
+      "compare": "Comparar",
+      "active": "Activo",
+      "enableCompare": "Activar Modo Comparación",
+      "returnSingle": "Volver al Modo Simple"
+    },
+    "legend": {
+      "rootA": "Fundamental (A)",
+      "inBoth": "En Ambas Escalas",
+      "soloB": "Solo en Escala B",
+      "soloBNote": "(Notas nuevas)",
+      "soloA": "Solo en Escala A",
+      "soloANote": "(Notas perdidas)",
+      "rootNote": "Nota Fundamental",
+      "scaleNote": "Nota de la Escala"
+    }
+  },
+  "theory": {
+    "title": "Guía Teórica de Escalas",
+    "subtitle": "Descubre cómo se usan las escalas en diferentes géneros, qué canciones famosas las utilizan y consejos prácticos para la improvisación.",
+    "tabs": {
+      "styles": "Estilos Musicales",
+      "scales": "Escalas y Canciones",
+      "improv": "Improvisación"
+    },
+    "styles": {
+      "title": "Aplicación para Géneros Musicales",
+      "bluesRock": {
+        "title": "Blues & Rock",
+        "desc": "El corazón del Blues es la Pentatónica Menor, enriquecida con la 'blue note' (b5). Añade la Pentatónica Mayor sobre acordes dominantes para un contraste agridulce. En el Rock, las escalas Menor Natural y Mixolidia añaden potencia a los riffs."
+      },
+      "jazzFusion": {
+        "title": "Jazz & Fusion",
+        "desc": "El Jazz requiere escalas para acompañar progresiones armónicas complejas. Dórica sobre acordes menores (IIm7), Mixolidia sobre dominantes (V7), Jónica sobre mayores (Imaj7). La Fusion añade la Lidia Dominante y la escala Alterada para tensiones cromáticas."
+      },
+      "metalHardRock": {
+        "title": "Metal & Hard Rock",
+        "desc": "La agresividad proviene de los semitonos cercanos a la tónica. Las escalas Frigia y Menor Armónica ofrecen un sonido oscuro y neoclásico. La Locria es perfecta para riffs sobre acordes disminuidos."
+      },
+      "popClassical": {
+        "title": "Pop & Música Clásica",
+        "desc": "El Pop y el Rock Clásico prosperan con la Jónica (Mayor) y la Pentatónica Mayor para melodías brillantes. La Eólica (Menor Natural) es la escala de referencia para baladas emotivas. En la música clásica, la Menor Armónica y la Menor Melódica añaden complejidad armónica."
+      }
+    },
+    "scales": {
+      "title": "Colores de las Escalas y Canciones Famosas",
+      "referenceSongs": "Canciones de Referencia:",
+      "scaleNames": {
+        "majorIonian": "Jónica (Mayor)",
+        "naturalMinorAeolian": "Eólica (Menor Natural)",
+        "majorPentatonic": "Pentatónica Mayor",
+        "minorPentatonic": "Pentatónica Menor",
+        "blues": "Blues",
+        "mixolydian": "Mixolidia",
+        "dorian": "Dórica",
+        "phrygian": "Frigia",
+        "lydian": "Lidia",
+        "locrian": "Locria",
+        "harmonicMinor": "Menor Armónica",
+        "melodicMinor": "Menor Melódica",
+        "lydianDominant": "Lidia Dominante",
+        "altered": "Alterada (Super Locria)",
+        "wholeTone": "Escala de Tonos Enteros",
+        "halfWholeDiminished": "Semitono-Tono Disminuida",
+        "bebopDominant": "Bebop Dominante"
+      },
+      "moods": {
+        "majorIonian": "Alegre, Triunfante",
+        "dorian": "Menor brillante, Bluesy, Sofisticado",
+        "phrygian": "Oscuro, Español/Flamenco",
+        "lydian": "Soñador, Flotante, Mágico",
+        "mixolydian": "Mayor bluesy, Rock 'n Roll",
+        "naturalMinorAeolian": "Triste, Épico, Melancólico",
+        "harmonicMinor": "Neoclásico, Mediooriental",
+        "locrian": "Tenso, Sin Resolver"
+      }
+    },
+    "improv": {
+      "title": "Técnicas de Improvisación y Consejos",
+      "mixMajorMinor": {
+        "title": "Mezclar Mayor y Menor",
+        "desc": "Una de las técnicas más icónicas del blues y el rock es alternar entre la Pentatónica Menor y la Pentatónica Mayor sobre el mismo acorde. Esto crea un contraste 'agridulce' que es el sello distintivo de guitarristas como B.B. King y Jimi Hendrix.",
+        "proTip": "💡 Consejo Pro:",
+        "proTipDesc": "Sobre un acorde de LA7 (A7), prueba a tocar la Pentatónica Menor de La para crear tensión y luego resuelve sobre las notas de la Pentatónica Mayor de La. La nota mágica es la 3ª mayor (Do#) tocada después de la 3ª menor (Do)."
+      },
+      "chordScale": {
+        "title": "Tocar sobre los Cambios (Chord-Scale)",
+        "desc": "En lugar de usar una sola escala para toda la canción, los guitarristas avanzados cambian de escala con cada acorde. Sobre un IIm7-V7-Imaj7 en Do: usa Re Dórica sobre Rem7, Sol Mixolidia sobre Sol7, y Do Jónica sobre Domaj7. Las notas cambian sutilmente, siguiendo la armonía."
+      },
+      "passingNotes": {
+        "title": "Notas de Paso (Cromatismo)",
+        "desc": "Las escalas contienen las notas 'correctas', pero son los pasajes entre ellas los que crean interés. Añadir notas de paso cromáticas (un semitono por encima o por debajo de una nota objetivo) añade sofisticación. La Bebop Dominante es una escala que formaliza este concepto añadiendo una nota cromática de paso entre la b7 y la fundamental."
+      }
+    }
+  },
+  "scales": {
+    "majorIonian": "Jónica (Mayor)",
+    "naturalMinorAeolian": "Eólica (Menor Natural)",
+    "majorPentatonic": "Pentatónica Mayor",
+    "minorPentatonic": "Pentatónica Menor",
+    "blues": "Blues",
+    "mixolydian": "Mixolidia",
+    "dorian": "Dórica",
+    "phrygian": "Frigia",
+    "lydian": "Lidia",
+    "locrian": "Locria",
+    "harmonicMinor": "Menor Armónica",
+    "melodicMinor": "Menor Melódica",
+    "lydianDominant": "Lidia Dominante",
+    "altered": "Alterada (Super Locria)",
+    "wholeTone": "Escala de Tonos Enteros",
+    "halfWholeDiminished": "Semitono-Tono Disminuida",
+    "bebopDominant": "Bebop Dominante"
+  },
+  "genres": {
+    "pop": "Pop",
+    "classical": "Clásica",
+    "country": "Country",
+    "rock": "Rock",
+    "metal": "Metal",
+    "blues": "Blues",
+    "jazz": "Jazz",
+    "funk": "Funk",
+    "fusion": "Fusion",
+    "flamenco": "Flamenco",
+    "cinematic": "Cinematográfica",
+    "prog": "Prog"
+  },
+  "instruments": {
+    "acousticGuitar": "Guitarra Acústica",
+    "electricMuted": "Eléctrica Apagada",
+    "synthBass": "Bajo Sintetizado",
+    "synthLead": "Sintetizador Lead",
+    "electricPiano": "Piano Eléctrico",
+    "8bitRetro": "8-Bit Retro",
+    "flute": "Flauta",
+    "softPad": "Pad Suave",
+    "organ": "Órgano",
+    "crystalBell": "Campana de Cristal"
+  }
+}

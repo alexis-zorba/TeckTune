@@ -1,0 +1,165 @@
+{
+  "app": {
+    "header": {
+      "tune": "Stimmung:",
+      "stringTitles": {
+        "eLow": "6. - Tiefes E",
+        "a": "5. - A",
+        "d": "4. - D",
+        "g": "3. - G",
+        "b": "2. - H",
+        "eHigh": "1. - Hohes E"
+      },
+      "intervals": "Intervalle",
+      "notes": "Noten"
+    },
+    "scaleCard": {
+      "selectedScale": "Ausgewählte Tonleiter",
+      "scaleABase": "Tonleiter A (Basis)",
+      "scaleBTarget": "Tonleiter B (Ziel)",
+      "rootNote": "Grundton",
+      "scaleType": "Tonleiter-Typ",
+      "listenScale1": "Tonleiter 1 anhören",
+      "listenScale2": "Tonleiter 2 anhören"
+    },
+    "mode": {
+      "compare": "Vergleichen",
+      "active": "Aktiv",
+      "enableCompare": "Vergleichsmodus aktivieren",
+      "returnSingle": "Zurück zum Einzelmodus"
+    },
+    "legend": {
+      "rootA": "Grundton (A)",
+      "inBoth": "In beiden Tonleitern",
+      "soloB": "Nur in Tonleiter B",
+      "soloBNote": "(Neue Noten)",
+      "soloA": "Nur in Tonleiter A",
+      "soloANote": "(Verlorene Noten)",
+      "rootNote": "Grundton",
+      "scaleNote": "Tonleiter-Note"
+    }
+  },
+  "theory": {
+    "title": "Theoretischer Leitfaden zu Tonleitern",
+    "subtitle": "Entdecken Sie, wie Tonleitern in verschiedenen Genres verwendet werden, welche berühmten Songs sie nutzen, und praktische Tipps für die Improvisation.",
+    "tabs": {
+      "styles": "Musikstile",
+      "scales": "Tonleitern & Songs",
+      "improv": "Improvisation"
+    },
+    "styles": {
+      "title": "Anwendung für Musikgenres",
+      "bluesRock": {
+        "title": "Blues & Rock",
+        "desc": "Das Herz des Blues ist die Moll-Pentatonik, angereichert mit der 'Blue Note' (b5). Fügen Sie die Dur-Pentatonik über Dominantakkorden für einen süß-bitteren Kontrast hinzu. Im Rock verleihen die natürliche Moll-Tonleiter und Mixolydisch den Riffs Kraft."
+      },
+      "jazzFusion": {
+        "title": "Jazz & Fusion",
+        "desc": "Jazz erfordert Tonleitern, um komplexe harmonische Progressionen zu begleiten. Dorisch über Moll-Akkorden (IIm7), Mixolydisch über Dominanten (V7), Ionisch über Dur (Imaj7). Fusion fügt Lydisch Dominant und die alterierte Tonleiter für chromatische Spannung hinzu."
+      },
+      "metalHardRock": {
+        "title": "Metal & Hard Rock",
+        "desc": "Aggressivität entsteht durch Halbtöne nahe der Tonika. Die phrygische und die harmonische Moll-Tonleiter bieten einen dunklen und neoklassischen Klang. Lokrisch ist perfekt für Riffs über verminderten Akkorden."
+      },
+      "popClassical": {
+        "title": "Pop & Klassik",
+        "desc": "Pop und Classic Rock gedeihen auf Ionisch (Dur) und der Dur-Pentatonik für helle Melodien. Äolisch (Moll) ist die bevorzugte Tonleiter für emotionale Balladen. In der klassischen Musik fügen harmonisches Moll und melodisches Moll harmonische Komplexität hinzu."
+      }
+    },
+    "scales": {
+      "title": "Farben der Tonleitern und berühmte Songs",
+      "referenceSongs": "Referenz-Songs:",
+      "scaleNames": {
+        "majorIonian": "Ionisch (Dur)",
+        "naturalMinorAeolian": "Äolisch (Moll)",
+        "majorPentatonic": "Dur-Pentatonik",
+        "minorPentatonic": "Moll-Pentatonik",
+        "blues": "Blues",
+        "mixolydian": "Mixolydisch",
+        "dorian": "Dorisch",
+        "phrygian": "Phrygisch",
+        "lydian": "Lydisch",
+        "locrian": "Lokrisch",
+        "harmonicMinor": "Harmonisches Moll",
+        "melodicMinor": "Melodisches Moll",
+        "lydianDominant": "Lydisch Dominant",
+        "altered": "Alteriert (Superlokrisch)",
+        "wholeTone": "Ganztonleiter",
+        "halfWholeDiminished": "Halb-Ganz Vermindert",
+        "bebopDominant": "Bebop Dominant"
+      },
+      "moods": {
+        "majorIonian": "Fröhlich, Triumphierend",
+        "dorian": "Helles Moll, Bluesy, Raffiniert",
+        "phrygian": "Dunkel, Spanisch/Flamenco",
+        "lydian": "Verträumt, Schwebend, Magisch",
+        "mixolydian": "Bluesiges Dur, Rock 'n Roll",
+        "naturalMinorAeolian": "Traurig, Episch, Melancholisch",
+        "harmonicMinor": "Neoklassisch, Nahöstlich",
+        "locrian": "Angespannt, Ungelöst"
+      }
+    },
+    "improv": {
+      "title": "Improvisationstechniken und Tipps",
+      "mixMajorMinor": {
+        "title": "Dur und Moll mischen",
+        "desc": "Eine der ikonischsten Techniken des Blues und Rock ist der Wechsel zwischen Moll-Pentatonik und Dur-Pentatonik über demselben Akkord. Dies erzeugt einen 'süß-bitteren' Kontrast, der das Markenzeichen von Gitarristen wie B.B. King und Jimi Hendrix ist.",
+        "proTip": "💡 Profi-Tipp:",
+        "proTipDesc": "Über einem A7-Akkord versuchen Sie, A-Moll-Pentatonik für Spannung zu spielen und lösen Sie dann auf Noten der A-Dur-Pentatonik auf. Die magische Note ist die große Terz (C#), gespielt nach der kleinen Terz (C)."
+      },
+      "chordScale": {
+        "title": "Über Changes spielen (Chord-Scale)",
+        "desc": "Anstatt eine einzige Tonleiter für den ganzen Song zu verwenden, wechseln fortgeschrittene Gitarristen die Tonleiter mit jedem Akkord. Über IIm7-V7-Imaj7 in C: Verwenden Sie D Dorisch über Dm7, G Mixolydisch über G7 und C Ionisch über Cmaj7. Die Noten ändern sich subtil und folgen der Harmonie."
+      },
+      "passingNotes": {
+        "title": "Durchgangsnoten (Chromatik)",
+        "desc": "Tonleitern enthalten die 'richtigen' Noten, aber es sind die Übergänge zwischen ihnen, die Interesse wecken. Das Hinzufügen chromatischer Durchgangsnoten (ein Halbton über oder unter einer Zielnote) verleiht Raffinesse. Bebop Dominant ist eine Tonleiter, die dieses Konzept formalisiert, indem sie eine chromatische Durchgangsnote zwischen b7 und dem Grundton hinzufügt."
+      }
+    }
+  },
+  "scales": {
+    "majorIonian": "Dur (Ionisch)",
+    "naturalMinorAeolian": "Moll (Äolisch)",
+    "majorPentatonic": "Dur-Pentatonik",
+    "minorPentatonic": "Moll-Pentatonik",
+    "blues": "Blues",
+    "mixolydian": "Mixolydisch",
+    "dorian": "Dorisch",
+    "phrygian": "Phrygisch",
+    "lydian": "Lydisch",
+    "locrian": "Lokrisch",
+    "harmonicMinor": "Harmonisches Moll",
+    "melodicMinor": "Melodisches Moll",
+    "lydianDominant": "Lydisch Dominant",
+    "altered": "Alteriert (Superlokrisch)",
+    "wholeTone": "Ganztonleiter",
+    "halfWholeDiminished": "Halb-Ganz Vermindert",
+    "bebopDominant": "Bebop Dominant"
+  },
+  "genres": {
+    "pop": "Pop",
+    "classical": "Klassik",
+    "country": "Country",
+    "rock": "Rock",
+    "metal": "Metal",
+    "blues": "Blues",
+    "jazz": "Jazz",
+    "funk": "Funk",
+    "fusion": "Fusion",
+    "flamenco": "Flamenco",
+    "cinematic": "Filmmusik",
+    "prog": "Prog"
+  },
+  "instruments": {
+    "acousticGuitar": "Akustische Gitarre",
+    "electricMuted": "E-Gitarre gedämpft",
+    "synthBass": "Synth-Bass",
+    "synthLead": "Synth-Lead",
+    "electricPiano": "E-Piano",
+    "8bitRetro": "8-Bit Retro",
+    "flute": "Flöte",
+    "softPad": "Weicher Pad",
+    "organ": "Orgel",
+    "crystalBell": "Kristallglocke"
+  }
+}

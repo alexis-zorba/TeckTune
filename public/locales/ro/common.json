@@ -1,0 +1,165 @@
+{
+  "app": {
+    "header": {
+      "tune": "Acordaj:",
+      "stringTitles": {
+        "eLow": "6-a - Mi Grav",
+        "a": "5-a - La",
+        "d": "4-a - Re",
+        "g": "3-a - Sol",
+        "b": "2-a - Si",
+        "eHigh": "1-a - Mi Înalt"
+      },
+      "intervals": "Intervale",
+      "notes": "Note"
+    },
+    "scaleCard": {
+      "selectedScale": "Gama Selectată",
+      "scaleABase": "Gama A (Bază)",
+      "scaleBTarget": "Gama B (Țintă)",
+      "rootNote": "Nota Fundamentală",
+      "scaleType": "Tip de Gamă",
+      "listenScale1": "Ascultă Gama 1",
+      "listenScale2": "Ascultă Gama 2"
+    },
+    "mode": {
+      "compare": "Compară",
+      "active": "Activ",
+      "enableCompare": "Activează Modul Comparare",
+      "returnSingle": "Revino la Modul Simplu"
+    },
+    "legend": {
+      "rootA": "Fundamentală (A)",
+      "inBoth": "În Ambele Game",
+      "soloB": "Doar în Gama B",
+      "soloBNote": "(Note noi)",
+      "soloA": "Doar în Gama A",
+      "soloANote": "(Note pierdute)",
+      "rootNote": "Nota Fundamentală",
+      "scaleNote": "Nota Gamei"
+    }
+  },
+  "theory": {
+    "title": "Ghid Teoretic al Gamelor",
+    "subtitle": "Descoperă cum sunt folosite gamele în diferite genuri, ce cântece celebre le utilizează și sfaturi practice pentru improvizație.",
+    "tabs": {
+      "styles": "Stiluri Muzicale",
+      "scales": "Game și Cântece",
+      "improv": "Improvizație"
+    },
+    "styles": {
+      "title": "Aplicație pentru Genuri Muzicale",
+      "bluesRock": {
+        "title": "Blues & Rock",
+        "desc": "Inima Blues-ului este Pentatonica Minoră, îmbogățită cu 'blue note' (b5). Adaugă Pentatonica Majoră pe acordurile dominante pentru un contrast dulce-amar. În Rock, gamele Minoră Naturală și Mixolidiană adaugă putere riff-urilor."
+      },
+      "jazzFusion": {
+        "title": "Jazz & Fusion",
+        "desc": "Jazz-ul necesită game pentru a acompania progresii armonice complexe. Dorică pe acorduri minore (IIm7), Mixolidiană pe dominante (V7), Ionică pe majore (Imaj7). Fusion adaugă Lidiana Dominantă și gama Alterată pentru tensiuni cromatice."
+      },
+      "metalHardRock": {
+        "title": "Metal & Hard Rock",
+        "desc": "Agresivitatea provine din semitonurile apropiate de tonică. Gamele Frigiană și Minoră Armonică oferă un sunet întunecat și neoclasic. Locriana este perfectă pentru riff-uri pe acorduri diminuate."
+      },
+      "popClassical": {
+        "title": "Pop & Muzică Clasică",
+        "desc": "Pop-ul și Rock-ul Clasic prosperă pe Ionica (Majoră) și Pentatonica Majoră pentru melodii luminoase. Eolica (Minoră Naturală) este gama de referință pentru balade emoționale. În muzica clasică, Minora Armonică și Minora Melodică adaugă complexitate armonică."
+      }
+    },
+    "scales": {
+      "title": "Culorile Gamelor și Cântece Celebre",
+      "referenceSongs": "Cântece de Referință:",
+      "scaleNames": {
+        "majorIonian": "Ionică (Majoră)",
+        "naturalMinorAeolian": "Eolică (Minoră Naturală)",
+        "majorPentatonic": "Pentatonică Majoră",
+        "minorPentatonic": "Pentatonică Minoră",
+        "blues": "Blues",
+        "mixolydian": "Mixolidiană",
+        "dorian": "Dorică",
+        "phrygian": "Frigiană",
+        "lydian": "Lidiană",
+        "locrian": "Locriană",
+        "harmonicMinor": "Minoră Armonică",
+        "melodicMinor": "Minoră Melodică",
+        "lydianDominant": "Lidiană Dominantă",
+        "altered": "Alterată (Super Locriană)",
+        "wholeTone": "Gama de Tonuri Întregi",
+        "halfWholeDiminished": "Semiton-Ton Diminuată",
+        "bebopDominant": "Bebop Dominantă"
+      },
+      "moods": {
+        "majorIonian": "Vesel, Triumfător",
+        "dorian": "Minor luminos, Bluesy, Sofisticat",
+        "phrygian": "Întunecat, Spaniol/Flamenco",
+        "lydian": "Visător, Plutitor, Magic",
+        "mixolydian": "Major bluesy, Rock 'n Roll",
+        "naturalMinorAeolian": "Trist, Epic, Melancolic",
+        "harmonicMinor": "Neoclasic, Oriental",
+        "locrian": "Tensionat, Nerezolvat"
+      }
+    },
+    "improv": {
+      "title": "Tehnici de Improvizație și Sfaturi",
+      "mixMajorMinor": {
+        "title": "Amestecarea Majorului cu Minorul",
+        "desc": "Una dintre cele mai iconice tehnici ale blues-ului și rock-ului este alternarea între Pentatonica Minoră și Pentatonica Majoră pe același acord. Aceasta creează un contrast 'dulce-amar' care este marca distinctivă a chitariștilor precum B.B. King și Jimi Hendrix.",
+        "proTip": "💡 Sfat Pro:",
+        "proTipDesc": "Pe un acord de LA7 (A7), încearcă să cânți Pentatonica Minoră de La pentru tensiune și apoi rezolvă pe notele Pentatonicii Majore de La. Nota magică este 3-a majoră (Do#) cântată după 3-a minoră (Do)."
+      },
+      "chordScale": {
+        "title": "Cântatul pe Schimbări (Chord-Scale)",
+        "desc": "În loc să folosești o singură gamă pentru toată piesa, chitariștii avansați schimbă gama cu fiecare acord. Pe un IIm7-V7-Imaj7 în Do: folosește Re Dorică pe Rem7, Sol Mixolidiană pe Sol7 și Do Ionică pe Domaj7. Notele se schimbă subtil, urmărind armonia."
+      },
+      "passingNotes": {
+        "title": "Note de Pasaj (Cromatism)",
+        "desc": "Gamele conțin notele 'corecte', dar pasajele dintre ele sunt cele care creează interes. Adăugarea notelor de pasaj cromatice (un semiton deasupra sau dedesubtul unei note țintă) adaugă sofisticare. Bebop Dominanta este o gamă care formalizează acest concept adăugând o notă cromatică de pasaj între b7 și fundamentală."
+      }
+    }
+  },
+  "scales": {
+    "majorIonian": "Ionică (Majoră)",
+    "naturalMinorAeolian": "Eolică (Minoră Naturală)",
+    "majorPentatonic": "Pentatonică Majoră",
+    "minorPentatonic": "Pentatonică Minoră",
+    "blues": "Blues",
+    "mixolydian": "Mixolidiană",
+    "dorian": "Dorică",
+    "phrygian": "Frigiană",
+    "lydian": "Lidiană",
+    "locrian": "Locriană",
+    "harmonicMinor": "Minoră Armonică",
+    "melodicMinor": "Minoră Melodică",
+    "lydianDominant": "Lidiană Dominantă",
+    "altered": "Alterată (Super Locriană)",
+    "wholeTone": "Gama de Tonuri Întregi",
+    "halfWholeDiminished": "Semiton-Ton Diminuată",
+    "bebopDominant": "Bebop Dominantă"
+  },
+  "genres": {
+    "pop": "Pop",
+    "classical": "Clasică",
+    "country": "Country",
+    "rock": "Rock",
+    "metal": "Metal",
+    "blues": "Blues",
+    "jazz": "Jazz",
+    "funk": "Funk",
+    "fusion": "Fusion",
+    "flamenco": "Flamenco",
+    "cinematic": "Cinematică",
+    "prog": "Prog"
+  },
+  "instruments": {
+    "acousticGuitar": "Chitară Acustică",
+    "electricMuted": "Electrică Înăbușită",
+    "synthBass": "Bas Sintetizat",
+    "synthLead": "Lead Sintetizat",
+    "electricPiano": "Pian Electric",
+    "8bitRetro": "8-Bit Retro",
+    "flute": "Flaut",
+    "softPad": "Pad Moale",
+    "organ": "Orgă",
+    "crystalBell": "Clopot de Cristal"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "app": {
+    "header": {
+      "tune": "调弦：",
+      "stringTitles": {
+        "eLow": "6弦 - 低音E",
+        "a": "5弦 - A",
+        "d": "4弦 - D",
+        "g": "3弦 - G",
+        "b": "2弦 - B",
+        "eHigh": "1弦 - 高音E"
+      },
+      "intervals": "音程",
+      "notes": "音符"
+    },
+    "scaleCard": {
+      "selectedScale": "已选音阶",
+      "scaleABase": "音阶 A（基准）",
+      "scaleBTarget": "音阶 B（目标）",
+      "rootNote": "根音",
+      "scaleType": "音阶类型",
+      "listenScale1": "试听音阶 1",
+      "listenScale2": "试听音阶 2"
+    },
+    "mode": {
+      "compare": "对比",
+      "active": "已激活",
+      "enableCompare": "启用对比模式",
+      "returnSingle": "返回单一模式"
+    },
+    "legend": {
+      "rootA": "根音 (A)",
+      "inBoth": "两个音阶共有",
+      "soloB": "仅在音阶 B 中",
+      "soloBNote": "（新增音符）",
+      "soloA": "仅在音阶 A 中",
+      "soloANote": "（丢失音符）",
+      "rootNote": "根音",
+      "scaleNote": "音阶音符"
+    }
+  },
+  "theory": {
+    "title": "音阶理论指南",
+    "subtitle": "探索音阶在不同音乐风格中的应用，了解哪些著名歌曲使用了它们，并获取实用的即兴演奏技巧。",
+    "tabs": {
+      "styles": "音乐风格",
+      "scales": "音阶与歌曲",
+      "improv": "即兴演奏"
+    },
+    "styles": {
+      "title": "音乐流派应用",
+      "bluesRock": {
+        "title": "蓝调与摇滚",
+        "desc": "蓝调的核心是小调五声音阶，并加入「蓝调音符」（b5）来丰富色彩。在属和弦上加入大调五声音阶，营造甜中带苦的对比。在摇滚乐中，自然小调和混合利底亚音阶为连复段增添力量感。"
+      },
+      "jazzFusion": {
+        "title": "爵士与融合",
+        "desc": "爵士乐需要音阶来配合复杂的和声进行。多利亚用于小和弦（IIm7），混合利底亚用于属和弦（V7），伊奥尼亚用于大和弦（Imaj7）。融合音乐加入利底亚属音和变化音阶，营造半音化的紧张感。"
+      },
+      "metalHardRock": {
+        "title": "金属与硬摇滚",
+        "desc": "攻击性来自靠近主音的半音。弗里几亚与和声小调音阶带来黑暗和新古典的音色。洛克里亚音阶非常适合在减和弦上编写连复段。"
+      },
+      "popClassical": {
+        "title": "流行与古典音乐",
+        "desc": "流行和经典摇滚依靠伊奥尼亚（大调）和大调五声音阶创作明亮的旋律。爱奥尼亚（自然小调）是情感民谣的首选音阶。在古典音乐中，和声小调和旋律小调增加了和声的复杂性。"
+      }
+    },
+    "scales": {
+      "title": "音阶色彩与著名歌曲",
+      "referenceSongs": "参考歌曲：",
+      "scaleNames": {
+        "majorIonian": "伊奥尼亚（大调）",
+        "naturalMinorAeolian": "爱奥尼亚（自然小调）",
+        "majorPentatonic": "大调五声音阶",
+        "minorPentatonic": "小调五声音阶",
+        "blues": "布鲁斯音阶",
+        "mixolydian": "混合利底亚",
+        "dorian": "多利亚",
+        "phrygian": "弗里几亚",
+        "lydian": "利底亚",
+        "locrian": "洛克里亚",
+        "harmonicMinor": "和声小调",
+        "melodicMinor": "旋律小调",
+        "lydianDominant": "利底亚属音",
+        "altered": "变化音阶（超级洛克里亚）",
+        "wholeTone": "全音音阶",
+        "halfWholeDiminished": "半全减音阶",
+        "bebopDominant": "比波普属音阶"
+      },
+      "moods": {
+        "majorIonian": "欢快、凯旋",
+        "dorian": "明亮小调、蓝调风、精致",
+        "phrygian": "黑暗、西班牙/弗拉门戈",
+        "lydian": "梦幻、飘浮、神奇",
+        "mixolydian": "蓝调大调、摇滚",
+        "naturalMinorAeolian": "悲伤、史诗、忧郁",
+        "harmonicMinor": "新古典、中东",
+        "locrian": "紧张、未解决"
+      }
+    },
+    "improv": {
+      "title": "即兴演奏技巧与建议",
+      "mixMajorMinor": {
+        "title": "混合大调与小调",
+        "desc": "蓝调和摇滚最具标志性的技巧之一是在同一和弦上交替使用小调五声音阶和大调五声音阶。这营造出一种「甜中带苦」的对比，是B.B. King和Jimi Hendrix等吉他手的标志性风格。",
+        "proTip": "💡 专业提示：",
+        "proTipDesc": "在A7和弦上，尝试先弹奏A小调五声音阶制造紧张感，然后用A大调五声音阶的音符来释放。神奇的秘诀是在小三度（C）之后弹奏大三度（C#）。"
+      },
+      "chordScale": {
+        "title": "跟随和声进行演奏（和弦-音阶）",
+        "desc": "高级吉他手不会整首歌只用一个音阶，而是随着每个和弦变换音阶。在C调的IIm7-V7-Imaj7进行中：在Dm7上使用D多利亚，在G7上使用G混合利底亚，在Cmaj7上使用C伊奥尼亚。音符微妙地变化，紧跟和声。"
+      },
+      "passingNotes": {
+        "title": "经过音（半音化）",
+        "desc": "音阶包含「正确」的音符，但音符之间的过渡才是趣味所在。添加半音经过音（目标音符上方或下方半音）能增添精致感。比波普属音阶正是将这一概念形式化，在b7和根音之间加入一个半音经过音。"
+      }
+    }
+  },
+  "scales": {
+    "majorIonian": "大调（伊奥尼亚）",
+    "naturalMinorAeolian": "自然小调（爱奥尼亚）",
+    "majorPentatonic": "大调五声音阶",
+    "minorPentatonic": "小调五声音阶",
+    "blues": "布鲁斯音阶",
+    "mixolydian": "混合利底亚",
+    "dorian": "多利亚",
+    "phrygian": "弗里几亚",
+    "lydian": "利底亚",
+    "locrian": "洛克里亚",
+    "harmonicMinor": "和声小调",
+    "melodicMinor": "旋律小调",
+    "lydianDominant": "利底亚属音",
+    "altered": "变化音阶（超级洛克里亚）",
+    "wholeTone": "全音音阶",
+    "halfWholeDiminished": "半全减音阶",
+    "bebopDominant": "比波普属音阶"
+  },
+  "genres": {
+    "pop": "流行",
+    "classical": "古典",
+    "country": "乡村",
+    "rock": "摇滚",
+    "metal": "金属",
+    "blues": "蓝调",
+    "jazz": "爵士",
+    "funk": "放克",
+    "fusion": "融合",
+    "flamenco": "弗拉门戈",
+    "cinematic": "电影配乐",
+    "prog": "前卫"
+  },
+  "instruments": {
+    "acousticGuitar": "原声吉他",
+    "electricMuted": "闷音电吉他",
+    "synthBass": "合成贝斯",
+    "synthLead": "合成主音",
+    "electricPiano": "电钢琴",
+    "8bitRetro": "8位复古",
+    "flute": "长笛",
+    "softPad": "柔音垫",
+    "organ": "管风琴",
+    "crystalBell": "水晶铃"
+  }
+}

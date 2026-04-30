@@ -1,0 +1,9 @@
+feat: add i18n support with 9 languages (en, it, fr, de, es, ro, ru, zh, el)
+
+- Custom React Context i18n system (no external deps)
+- Lazy-loading translations from public/locales/
+- Browser language detection + localStorage persistence
+- LanguageSwitcher component in header
+- All UI strings externalized to JSON translation files
+- Musical terms (scales, genres, instruments) translated
+- Notes and intervals kept in universal notation

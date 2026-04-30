@@ -1,0 +1,165 @@
+{
+  "app": {
+    "header": {
+      "tune": "Accorder :",
+      "stringTitles": {
+        "eLow": "6e - Mi Grave",
+        "a": "5e - La",
+        "d": "4e - Ré",
+        "g": "3e - Sol",
+        "b": "2e - Si",
+        "eHigh": "1re - Mi Aigu"
+      },
+      "intervals": "Intervalles",
+      "notes": "Notes"
+    },
+    "scaleCard": {
+      "selectedScale": "Gamme Sélectionnée",
+      "scaleABase": "Gamme A (Base)",
+      "scaleBTarget": "Gamme B (Cible)",
+      "rootNote": "Note Fondamentale",
+      "scaleType": "Type de Gamme",
+      "listenScale1": "Écouter la Gamme 1",
+      "listenScale2": "Écouter la Gamme 2"
+    },
+    "mode": {
+      "compare": "Comparer",
+      "active": "Actif",
+      "enableCompare": "Activer le Mode Comparaison",
+      "returnSingle": "Retour au Mode Simple"
+    },
+    "legend": {
+      "rootA": "Fondamentale (A)",
+      "inBoth": "Dans les Deux Gammes",
+      "soloB": "Seulement dans la Gamme B",
+      "soloBNote": "(Nouvelles notes)",
+      "soloA": "Seulement dans la Gamme A",
+      "soloANote": "(Notes perdues)",
+      "rootNote": "Note Fondamentale",
+      "scaleNote": "Note de la Gamme"
+    }
+  },
+  "theory": {
+    "title": "Guide Théorique des Gammes",
+    "subtitle": "Découvrez comment les gammes sont utilisées dans différents genres, quelles chansons célèbres les utilisent, et des conseils pratiques pour l'improvisation.",
+    "tabs": {
+      "styles": "Styles Musicaux",
+      "scales": "Gammes & Chansons",
+      "improv": "Improvisation"
+    },
+    "styles": {
+      "title": "Application aux Genres Musicaux",
+      "bluesRock": {
+        "title": "Blues & Rock",
+        "desc": "Le cœur du Blues est la Pentatonique Mineure, enrichie de la 'blue note' (b5). Ajoutez la Pentatonique Majeure sur les accords dominants pour un contraste doux-amer. Dans le Rock, les gammes Mineure Naturelle et Mixolydien ajoutent de la puissance aux riffs."
+      },
+      "jazzFusion": {
+        "title": "Jazz & Fusion",
+        "desc": "Le Jazz exige des gammes pour accompagner des progressions harmoniques complexes. Dorien sur les accords mineurs (IIm7), Mixolydien sur les dominantes (V7), Ionien sur les majeures (Imaj7). La Fusion ajoute le Lydien Dominant et la gamme Altérée pour des tensions chromatiques."
+      },
+      "metalHardRock": {
+        "title": "Metal & Hard Rock",
+        "desc": "L'agressivité provient des demi-tons proches de la tonique. Les gammes Phrygien et Mineur Harmonique offrent un son sombre et néoclassique. Le Locrien est parfait pour les riffs sur des accords diminués."
+      },
+      "popClassical": {
+        "title": "Pop & Musique Classique",
+        "desc": "La Pop et le Classic Rock prospèrent sur l'Ionien (Majeur) et la Pentatonique Majeure pour des mélodies lumineuses. L'Éolien (Mineur Naturel) est la gamme de référence pour les ballades émotionnelles. Dans la musique classique, le Mineur Harmonique et le Mineur Mélodique ajoutent de la complexité harmonique."
+      }
+    },
+    "scales": {
+      "title": "Couleurs des Gammes et Chansons Célèbres",
+      "referenceSongs": "Chansons de Référence :",
+      "scaleNames": {
+        "majorIonian": "Ionien (Majeur)",
+        "naturalMinorAeolian": "Éolien (Mineur Naturel)",
+        "majorPentatonic": "Pentatonique Majeure",
+        "minorPentatonic": "Pentatonique Mineure",
+        "blues": "Blues",
+        "mixolydian": "Mixolydien",
+        "dorian": "Dorien",
+        "phrygian": "Phrygien",
+        "lydian": "Lydien",
+        "locrian": "Locrien",
+        "harmonicMinor": "Mineur Harmonique",
+        "melodicMinor": "Mineur Mélodique",
+        "lydianDominant": "Lydien Dominant",
+        "altered": "Altéré (Super Locrien)",
+        "wholeTone": "Gamme par Tons",
+        "halfWholeDiminished": "Demi-Ton/Ton Diminué",
+        "bebopDominant": "Bebop Dominant"
+      },
+      "moods": {
+        "majorIonian": "Joyeux, Triomphant",
+        "dorian": "Mineur lumineux, Bluesy, Sophistiqué",
+        "phrygian": "Sombre, Espagnol/Flamenco",
+        "lydian": "Rêveur, Flottant, Magique",
+        "mixolydian": "Majeur bluesy, Rock 'n Roll",
+        "naturalMinorAeolian": "Triste, Épique, Mélancolique",
+        "harmonicMinor": "Néoclassique, Oriental",
+        "locrian": "Tendu, Non Résolu"
+      }
+    },
+    "improv": {
+      "title": "Techniques d'Improvisation et Conseils",
+      "mixMajorMinor": {
+        "title": "Mélanger Majeur et Mineur",
+        "desc": "L'une des techniques les plus emblématiques du blues et du rock consiste à alterner entre la Pentatonique Mineure et la Pentatonique Majeure sur le même accord. Cela crée un contraste 'doux et amer' qui est la marque de fabrique de guitaristes comme B.B. King et Jimi Hendrix.",
+        "proTip": "💡 Conseil Pro :",
+        "proTipDesc": "Sur un accord de LA7 (A7), essayez de jouer la Pentatonique Mineure de La pour créer de la tension, puis résolvez sur les notes de la Pentatonique Majeure de La. La note magique est la 3ce majeure (Do#) jouée après la 3ce mineure (Do)."
+      },
+      "chordScale": {
+        "title": "Jouer sur les Changements (Chord-Scale)",
+        "desc": "Au lieu d'utiliser une seule gamme pour tout le morceau, les guitaristes avancés changent de gamme à chaque accord. Sur un IIm7-V7-Imaj7 en Do : utilisez Ré Dorien sur Rém7, Sol Mixolydien sur Sol7, et Do Ionien sur Domaj7. Les notes changent subtilement, en suivant l'harmonie."
+      },
+      "passingNotes": {
+        "title": "Notes de Passage (Chromatisme)",
+        "desc": "Les gammes contiennent les notes 'justes', mais ce sont les passages entre elles qui créent l'intérêt. Ajouter des notes de passage chromatiques (un demi-ton au-dessus ou au-dessous d'une note cible) ajoute de la sophistication. La gamme Bebop Dominant formalise ce concept en ajoutant une note chromatique de passage entre la b7 et la fondamentale."
+      }
+    }
+  },
+  "scales": {
+    "majorIonian": "Majeur (Ionien)",
+    "naturalMinorAeolian": "Mineur Naturel (Éolien)",
+    "majorPentatonic": "Pentatonique Majeure",
+    "minorPentatonic": "Pentatonique Mineure",
+    "blues": "Blues",
+    "mixolydian": "Mixolydien",
+    "dorian": "Dorien",
+    "phrygian": "Phrygien",
+    "lydian": "Lydien",
+    "locrian": "Locrien",
+    "harmonicMinor": "Mineur Harmonique",
+    "melodicMinor": "Mineur Mélodique",
+    "lydianDominant": "Lydien Dominant",
+    "altered": "Altéré (Super Locrien)",
+    "wholeTone": "Gamme par Tons",
+    "halfWholeDiminished": "Demi-Ton/Ton Diminué",
+    "bebopDominant": "Bebop Dominant"
+  },
+  "genres": {
+    "pop": "Pop",
+    "classical": "Classique",
+    "country": "Country",
+    "rock": "Rock",
+    "metal": "Metal",
+    "blues": "Blues",
+    "jazz": "Jazz",
+    "funk": "Funk",
+    "fusion": "Fusion",
+    "flamenco": "Flamenco",
+    "cinematic": "Cinématique",
+    "prog": "Prog"
+  },
+  "instruments": {
+    "acousticGuitar": "Guitare Acoustique",
+    "electricMuted": "Électrique Étouffée",
+    "synthBass": "Basse Synthé",
+    "synthLead": "Lead Synthé",
+    "electricPiano": "Piano Électrique",
+    "8bitRetro": "8-Bit Rétro",
+    "flute": "Flûte",
+    "softPad": "Nappe Douce",
+    "organ": "Orgue",
+    "crystalBell": "Cloche Cristal"
+  }
+}

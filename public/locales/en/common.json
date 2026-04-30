@@ -1,0 +1,165 @@
+{
+  "app": {
+    "header": {
+      "tune": "Tune:",
+      "stringTitles": {
+        "eLow": "6th - Low E",
+        "a": "5th - A",
+        "d": "4th - D",
+        "g": "3rd - G",
+        "b": "2nd - B",
+        "eHigh": "1st - High E"
+      },
+      "intervals": "Intervals",
+      "notes": "Notes"
+    },
+    "scaleCard": {
+      "selectedScale": "Selected Scale",
+      "scaleABase": "Scale A (Base)",
+      "scaleBTarget": "Scale B (Target)",
+      "rootNote": "Root Note",
+      "scaleType": "Scale Type",
+      "listenScale1": "Listen to Scale 1",
+      "listenScale2": "Listen to Scale 2"
+    },
+    "mode": {
+      "compare": "Compare",
+      "active": "Active",
+      "enableCompare": "Enable Compare Mode",
+      "returnSingle": "Return to Single Mode"
+    },
+    "legend": {
+      "rootA": "Root (A)",
+      "inBoth": "In Both Scales",
+      "soloB": "Solo in Scale B",
+      "soloBNote": "(New notes)",
+      "soloA": "Solo in Scale A",
+      "soloANote": "(Lost notes)",
+      "rootNote": "Root Note",
+      "scaleNote": "Scale Note"
+    }
+  },
+  "theory": {
+    "title": "Theoretical Guide to Scales",
+    "subtitle": "Discover how scales are used across different genres, which famous songs use them, and practical tips for improvisation.",
+    "tabs": {
+      "styles": "Musical Styles",
+      "scales": "Scales & Songs",
+      "improv": "Improvisation"
+    },
+    "styles": {
+      "title": "Application for Musical Genres",
+      "bluesRock": {
+        "title": "Blues & Rock",
+        "desc": "The heart of Blues is the Minor Pentatonic, enriched with the 'blue note' (b5). Add the Major Pentatonic on dominant chords for a sweet-bitter contrast. In Rock, the Natural Minor and Mixolydian scales add power to riffs."
+      },
+      "jazzFusion": {
+        "title": "Jazz & Fusion",
+        "desc": "Jazz requires scales to accompany complex harmonic progressions. Dorian on minor chords (IIm7), Mixolydian on dominants (V7), Ionian on major (Imaj7). Fusion adds the Lydian Dominant and the Altered scale for chromatic tension."
+      },
+      "metalHardRock": {
+        "title": "Metal & Hard Rock",
+        "desc": "Aggressiveness comes from semitones close to the tonic. The Phrygian and Harmonic Minor scales offer a dark and neoclassical sound. The Locrian is perfect for riffs on diminished chords."
+      },
+      "popClassical": {
+        "title": "Pop & Classical Music",
+        "desc": "Pop and Classic Rock thrive on the Ionian (Major) and the Major Pentatonic for bright melodies. Aeolian (Natural Minor) is the go-to scale for emotional ballads. In classical music, Harmonic Minor and Melodic Minor add harmonic complexity."
+      }
+    },
+    "scales": {
+      "title": "Scale Colors and Famous Songs",
+      "referenceSongs": "Reference Songs:",
+      "scaleNames": {
+        "majorIonian": "Ionian (Major)",
+        "naturalMinorAeolian": "Aeolian (Natural Minor)",
+        "majorPentatonic": "Major Pentatonic",
+        "minorPentatonic": "Minor Pentatonic",
+        "blues": "Blues",
+        "mixolydian": "Mixolydian",
+        "dorian": "Dorian",
+        "phrygian": "Phrygian",
+        "lydian": "Lydian",
+        "locrian": "Locrian",
+        "harmonicMinor": "Harmonic Minor",
+        "melodicMinor": "Melodic Minor",
+        "lydianDominant": "Lydian Dominant",
+        "altered": "Altered (Super Locrian)",
+        "wholeTone": "Whole Tone",
+        "halfWholeDiminished": "Half-Whole Diminished",
+        "bebopDominant": "Bebop Dominant"
+      },
+      "moods": {
+        "majorIonian": "Happy, Triumphant",
+        "dorian": "Bright minor, Bluesy, Sophisticated",
+        "phrygian": "Dark, Spanish/Flamenco",
+        "lydian": "Dreamy, Floating, Magical",
+        "mixolydian": "Bluesy major, Rock 'n Roll",
+        "naturalMinorAeolian": "Sad, Epic, Melancholic",
+        "harmonicMinor": "Neoclassical, Middle Eastern",
+        "locrian": "Tense, Unresolved"
+      }
+    },
+    "improv": {
+      "title": "Improvisation Techniques and Tips",
+      "mixMajorMinor": {
+        "title": "Mixing Major and Minor",
+        "desc": "One of the most iconic techniques of blues and rock is to alternate between the Minor Pentatonic and the Major Pentatonic over the same chord. This creates a 'sweet and bitter' contrast that is the hallmark of guitarists like B.B. King and Jimi Hendrix.",
+        "proTip": "💡 Pro Tip:",
+        "proTipDesc": "On an A7 chord, try playing A Minor Pentatonic for tension and then resolve on notes from A Major Pentatonic. The magic note is the Major 3rd (C#) played after the minor 3rd (C)."
+      },
+      "chordScale": {
+        "title": "Playing Over Changes (Chord-Scale)",
+        "desc": "Instead of using a single scale for the whole song, advanced guitarists change scale with each chord. On a IIm7-V7-Imaj7 in C: use D Dorian on Dm7, G Mixolydian on G7, and C Ionian on Cmaj7. The notes change subtly, following the harmony."
+      },
+      "passingNotes": {
+        "title": "Passing Notes (Chromaticism)",
+        "desc": "Scales contain the 'right' notes, but it's the passages between them that create interest. Adding chromatic passing notes (a half step above or below a target note) adds sophistication. Bebop Dominant is a scale that formalizes this concept by adding a chromatic passing note between b7 and the root."
+      }
+    }
+  },
+  "scales": {
+    "majorIonian": "Major (Ionian)",
+    "naturalMinorAeolian": "Natural Minor (Aeolian)",
+    "majorPentatonic": "Major Pentatonic",
+    "minorPentatonic": "Minor Pentatonic",
+    "blues": "Blues",
+    "mixolydian": "Mixolydian",
+    "dorian": "Dorian",
+    "phrygian": "Phrygian",
+    "lydian": "Lydian",
+    "locrian": "Locrian",
+    "harmonicMinor": "Harmonic Minor",
+    "melodicMinor": "Melodic Minor",
+    "lydianDominant": "Lydian Dominant",
+    "altered": "Altered (Super Locrian)",
+    "wholeTone": "Whole Tone",
+    "halfWholeDiminished": "Half-Whole Diminished",
+    "bebopDominant": "Bebop Dominant"
+  },
+  "genres": {
+    "pop": "Pop",
+    "classical": "Classical",
+    "country": "Country",
+    "rock": "Rock",
+    "metal": "Metal",
+    "blues": "Blues",
+    "jazz": "Jazz",
+    "funk": "Funk",
+    "fusion": "Fusion",
+    "flamenco": "Flamenco",
+    "cinematic": "Cinematic",
+    "prog": "Prog"
+  },
+  "instruments": {
+    "acousticGuitar": "Acoustic Guitar",
+    "electricMuted": "Electric Muted",
+    "synthBass": "Synth Bass",
+    "synthLead": "Synth Lead",
+    "electricPiano": "Electric Piano",
+    "8bitRetro": "8-Bit Retro",
+    "flute": "Flute",
+    "softPad": "Soft Pad",
+    "organ": "Organ",
+    "crystalBell": "Crystal Bell"
+  }
+}
