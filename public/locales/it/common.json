@@ -42,11 +42,12 @@
   "theory": {
     "title": "Guida Teorica alle Scale",
     "subtitle": "Scopri come le scale vengono utilizzate nei diversi generi musicali, quali brani celebri le impiegano e consigli pratici per l'improvvisazione.",
-    "tabs": {
-      "styles": "Stili Musicali",
-      "scales": "Scale e Canzoni",
-      "improv": "Improvvisazione"
-    },
+      "tabs": {
+        "styles": "Stili Musicali",
+        "scales": "Scale e Canzoni",
+        "improv": "Improvvisazione",
+        "guide": "Guida alle Scale"
+      },
     "styles": {
       "title": "Applicazione per Generi Musicali",
       "bluesRock": {
@@ -135,6 +136,120 @@
     "wholeTone": "Esatonale (Toni Interi)",
     "halfWholeDiminished": "Semidiminuita/Diminuita",
     "bebopDominant": "Bebop Dominante"
+  },
+  "guide": {
+    "title": "Guida alle Scale",
+    "subtitle": "Scopri l'origine, il carattere e i segreti di ogni scala",
+    "labels": {
+      "origin": "Origine",
+      "character": "Carattere",
+      "theory": "Teoria",
+      "tips": "Consigli d'uso"
+    },
+    "scales": {
+      "majorIonian": {
+        "origin": "La scala più antica e universale della musica occidentale, che codifica la risonanza naturale di una corda vibrante.",
+        "character": "Luminosa, aperta e bilanciata; trasmette stabilità e piacevolezza, come un'alba.",
+        "theory": "Composta da toni interi tranne tra il III e il IV grado e tra il VII e l'ottava (i due semitoni che definiscono la sua qualità luminosa).",
+        "tips": "La scelta predefinita per brani in modo maggiore; funziona su triadi maggiori (I, IV, V) e le loro estensioni di settima."
+      },
+      "naturalMinorAeolian": {
+        "origin": "Uno dei sette modi naturali della scala Maggiore, presente nella musica folk europea fin dal Medioevo.",
+        "character": "Malinconica e introspettiva; evoca tristezza senza dramma, come un lamento silenzioso.",
+        "theory": "Come la Maggiore ma con 3ª, 6ª e 7ª abbassate, creando il caratteristico suono minore.",
+        "tips": "Fondamentale per brani in modo minore, ballad e rock emotivo; si abbina agli accordi i, iv, VII."
+      },
+      "majorPentatonic": {
+        "origin": "Una semplificazione a cinque note della scala Maggiore presente nelle tradizioni folk di tutto il mondo, dalla musica celtica a quella asiatica.",
+        "character": "Fresca e diretta, senza dissonanze; suona aperta e accessibile, come una melodia di montagna.",
+        "theory": "Scala Maggiore privata del 4º e 7º grado, eliminando gli attriti dei semitoni per un suono puro.",
+        "tips": "Perfetta per melodie principali in pop, country e rock; difficile sbagliare quando si improvvisa."
+      },
+      "minorPentatonic": {
+        "origin": "La spina dorsale del blues afro-americano, sviluppata nel Sud degli Stati Uniti dal contatto tra tradizioni africane ed europee.",
+        "character": "Calda ed espressiva con una tensione intrinseca; trasmette anima e è istantaneamente riconoscibile.",
+        "theory": "Minore Naturale senza il 2º e 6º grado, lasciando solo le note più stabili del modo minore.",
+        "tips": "La scala di riferimento per soli blues e rock; abbinala con la Pentatonica Maggiore per il classico contrasto dolce-amaro."
+      },
+      "blues": {
+        "origin": "Nata nelle comunità afro-americane del Deep South alla fine del XIX secolo come veicolo di espressione emotiva.",
+        "character": "Potente e grezza, con una tensione agrodolce che crea un ritmo irresistibile; parla direttamente al cuore.",
+        "theory": "Pentatonica Minore con l'aggiunta di una b5 (blue note), creando una dissonanza distintiva che definisce il suono blues.",
+        "tips": "Ideale per soli espressivi in blues, rock e funk; usa la blue note come nota di passaggio per un fraseggio autentico."
+      },
+      "mixolydian": {
+        "origin": "Il quinto modo della scala Maggiore, usato nella musica ecclesiastica medievale e riscoperto nel rock and roll negli anni '50.",
+        "character": "Maggiore ma leggermente malinconica; un 'minore felice' che suona festoso ma con un'inquietudine sottostante.",
+        "theory": "Come la Maggiore ma con la 7ª abbassata (b7 invece di 7), rimuovendo la sensibile e aggiungendo un sapore bluesy.",
+        "tips": "La scala essenziale per accordi di settima di dominante (V7) in jazz e blues; classici rock come Sweet Child O' Mine sono costruiti su di essa."
+      },
+      "dorian": {
+        "origin": "Il secondo modo della scala Maggiore, prominente nell'antichità greca e rivitalizzato nel jazz attraverso bebop e hard bop.",
+        "character": "Sofisticata e cool, suona come una scala minore con un tocco luminoso; elegante senza essere vistosa.",
+        "theory": "Come la Minore Naturale ma con la 6ª alzata, conferendole un colore più luminoso e complesso dell'Eolia.",
+        "tips": "Perfetta per accordi minori che necessitano di luminosità; funziona magnificamente su progressioni i7 e iv7."
+      },
+      "phrygian": {
+        "origin": "Il terzo modo della scala Maggiore, nominato dopo un'antica regione greca e centrale nella tradizione chitarristica flamenco.",
+        "character": "Scura ed esotica, con un sapore spagnolo o mediorientale; trasmette mistero e intensità.",
+        "theory": "Come la Minore Naturale ma con il 2º grado abbassato, creando un intervallo di seconda minore vicino alla tonica.",
+        "tips": "Ottima per flamenco, metal e pezzi neoclassici; usala su accordi i e bII per un effetto scuro e drammatico."
+      },
+      "lydian": {
+        "origin": "Il quarto modo della scala Maggiore, considerato dagli antichi Greci come 'l'armonia più perfetta' del cosmo.",
+        "character": "Onirica e fluttuante, suona elevata e trascendente; come salire sopra le nuvole.",
+        "theory": "Come la Maggiore ma con la 4ª alzata (#4), creando una qualità luminosa e aspirazionale assente nella scala Maggiore standard.",
+        "tips": "Aggiunge magia agli accordi maggiori; usala su Imaj7 e Imaj9 per creare un'atmosfera cinematografica ed eterea."
+      },
+      "locrian": {
+        "origin": "Il settimo modo della scala Maggiore, raramente usato come centro tonale per la sua estrema instabilità fin dai tempi medievali.",
+        "character": "Tesa e instabile, suona sospesa e irrisolta; come stare sul bordo di un precipizio.",
+        "theory": "Il modo naturale più dissonante, caratterizzato da b2 e b5 vicino alla tonica, creando tensione massima.",
+        "tips": "Meglio usata come colore di passaggio su accordi diminuiti o semidiminuiti; evita come centro tonale."
+      },
+      "harmonicMinor": {
+        "origin": "Creata nel XVIII secolo per ripristinare la sensibile nelle tonalità minori, colmando l'armonia classica e i suoni esotici orientali.",
+        "character": "Misteriosa ed esotica, con una qualità araba; evoca corti antiche e tensione drammatica.",
+        "theory": "Minore Naturale con la 7ª alzata, creando un grande salto (3 semitoni) tra il 6º e 7º grado.",
+        "tips": "Ideale per pezzi neoclassici, metal e melodie ispirate all'Estremo Oriente; funziona sugli accordi i, III, VI, VII."
+      },
+      "melodicMinor": {
+        "origin": "Sviluppata nel XVIII secolo per smussare il movimento melodico nelle tonalità minori, successivamente adottata come base dell'armonia jazz.",
+        "character": "Eleganza e raffinatezza, mescola la gravità del minore con una qualità chiara e soaring; come il tema di un nobile cavaliere.",
+        "theory": "Minore Naturale con 6ª e 7ª alzate (forma ascendente), rendendola simile a una scala Maggiore con b3.",
+        "tips": "La scala genitore dell'improvvisazione jazz; fondamentale per i dorsi i7, ii7 e dominanti alterati."
+      },
+      "lydianDominant": {
+        "origin": "Una scala sintetica (non dalla scala Maggiore) popolarizzata nel jazz per la sua qualità onirica ma instabile sugli accordi dominanti.",
+        "character": "Effervescente e caleidoscopica, suona come una scala Maggiore rifratta attraverso un cristallo; giocosa ma irrisolta.",
+        "theory": "Come la Lidia (4ª alzata) ma con b7 invece della 7ª maggiore, combinando luminosità con tensione di dominante.",
+        "tips": "Suona sugli accordi di settima di dominante che risolvono a iim7; aggiunge un suono moderno e luminoso a jazz e fusion."
+      },
+      "altered": {
+        "origin": "Derivata dalla Super Locria omettendo la 5ª giusta, divenne centrale nel jazz dopo l'era bebop come scala dominante alterata per eccellenza.",
+        "character": "Ultra-tesa e cromatica, suona come una tempesta di note in costante movimento; caotica ma controllata.",
+        "theory": "Come la Locria ma con 1º e 2º gradi alzati, rimuovendo la 5ª giusta e aggiungendo tensioni multiple (b9, #9, #11, b13).",
+        "tips": "La scala di riferimento per accordi dominanti che necessitano di tensioni alterate (b9, #9, #11, b13); usala con parsimonia per effetto drammatico."
+      },
+      "wholeTone": {
+        "origin": "Una scala simmetrica a sei note scoperta nell'Ottocento, cara ai compositori impressionisti come Debussy per la sua qualità onirica.",
+        "character": "Eterea e fluttuante, dissolve il senso di tonalità creando un'atmosfera di meraviglia sospesa.",
+        "theory": "Tutti gli intervalli sono toni interi (2 semitoni), rendendola simmetrica e ambigua; esistono solo due trasposizioni.",
+        "tips": "Usala per passaggi ambient, impressionisti o surreali; funziona bene su accordi aumentati (C+, C7+) come riempitivo colorato."
+      },
+      "halfWholeDiminished": {
+        "origin": "Una scala simmetrica a otto note nata nel bebop jazz, usata come modo organizzato per navigare le note cromatiche di un accordo dominante.",
+        "character": "Densa e inquieta, suona come una cascata di domino che cadono; intensa ma controllata.",
+        "theory": "Inizia con un semitono poi tono intero alternati (H-W), creando movimento cromatico massimo attraverso tutte le otto note.",
+        "tips": "Efficace su dominanti alterati e come sostituto della dominante; ottima per linee bebop e corse cromatiche."
+      },
+      "bebopDominant": {
+        "origin": "Creata dai pionieri bebop negli anni '40 aggiungendo una nota di passaggio cromatica alla scala Misolidia per improvvisazioni più fluide.",
+        "character": "Energetica e propulsiva, oscilla con un movimento implacabile in avanti; il suono di una festa in pieno svolgimento.",
+        "theory": "Scala Misolidia con l'aggiunta di una 7ª maggiore (prima della tonica) che funge da nota di passaggio cromatica per smussare la risoluzione b7-root.",
+        "tips": "Progettata per passaggi veloci su accordi dominanti; aggiunge slancio e momento a improvvisazioni jazz e bebop."
+      }
+    }
   },
   "genres": {
     "pop": "Pop",

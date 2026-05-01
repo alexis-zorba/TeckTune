@@ -45,7 +45,8 @@
     "tabs": {
       "styles": "Styles Musicaux",
       "scales": "Gammes & Chansons",
-      "improv": "Improvisation"
+      "improv": "Improvisation",
+      "guide": "Guide des Gammes"
     },
     "styles": {
       "title": "Application aux Genres Musicaux",
@@ -135,6 +136,120 @@
     "wholeTone": "Gamme par Tons",
     "halfWholeDiminished": "Demi-Ton/Ton Diminué",
     "bebopDominant": "Bebop Dominant"
+  },
+  "guide": {
+    "title": "Guide des Gammes",
+    "subtitle": "Découvrez l'origine, le caractère et les secrets de chaque gamme",
+    "labels": {
+      "origin": "Origine",
+      "character": "Caractère",
+      "theory": "Théorie",
+      "tips": "Conseils d'utilisation"
+    },
+    "scales": {
+      "majorIonian": {
+        "origin": "La gamme la plus ancienne et universelle de la musique occidentale, qui codifie la résonance naturelle d'une corde vibrante.",
+        "character": "Lumineuse, ouverte et équilibrée ; elle évoque stabilité et douceur, comme un lever de soleil.",
+        "theory": "Composée de tons entiers sauf entre les degrés 3-4 et 7-8 (les deux demi-tons qui définissent son caractère lumineux).",
+        "tips": "Le choix par défaut pour les morceaux en tonalité majeure ; fonctionne sur les triades majeures (I, IV, V) et leurs septièmes extensions."
+      },
+      "naturalMinorAeolian": {
+        "origin": "L'un des sept modes naturels de la gamme majeure, présent dans la musique folklorique européenne depuis le Moyen Âge.",
+        "character": "Mélancolique et introspective ; elle évoque la tristesse sans drame, comme une plainte douce.",
+        "theory": "Comme la gamme majeure mais avec 3e, 6e et 7e abaissées, créant la couleur mineure caractéristique.",
+        "tips": "Indispensable pour les morceaux en tonalité mineure, les ballades et le rock émotionnel ; s'accorde avec les accords i, iv, VII."
+      },
+      "majorPentatonic": {
+        "origin": "Une simplification en cinq notes de la gamme majeure, présente dans les traditions folkloriques du monde entier, des Celtes aux musiques asiatiques.",
+        "character": "Fraîche et directe, sans dissonances ; elle sonne ouverte et accessible, comme une mélodie de montagne.",
+        "theory": "Gamme majeure sans les degrés 4 et 7, ce qui supprime les demi-tons pour un son pur.",
+        "tips": "Parfaite pour les mélodies en pop, country et rock ; difficile de se tromper en improvisant."
+      },
+      "minorPentatonic": {
+        "origin": "L'épine dorsale du blues afro-américain, développée dans le Sud des États-Unis par le contact des traditions africaines et européennes.",
+        "character": "Chaleureuse et expressive avec une tension naturelle ; elle sonne soul et immédiatement reconnaissable.",
+        "theory": "Mineure Naturelle sans les degrés 2 et 6, ne gardant que les notes les plus stables du mode mineur.",
+        "tips": "La gamme incontournable pour les solos de blues et de rock ; mariez-la à la Pentatonique Majeure pour le contraste doux-amer classique."
+      },
+      "blues": {
+        "origin": "Née dans les communautés afro-américaines du Deep South à la fin du XIXe siècle comme véhicule d'expression émotionnelle.",
+        "character": "Puissante et brute, avec une tension douce-amère qui crée un groove irrésistible ; elle parle directement au cœur.",
+        "theory": "Pentatonique mineure avec une b5 ajoutée (blue note), créant la dissonance distinctive du son blues.",
+        "tips": "Idéale pour des solos expressifs en blues, rock et funk ; utilisez la blue note comme note de passage pour un phrasé authentique."
+      },
+      "mixolydian": {
+        "origin": "Cinquième mode de la gamme majeure, utilisé dans la musique d'église médiévale puis redécouvert par le rock'n'roll des années 1950.",
+        "character": "Majeure mais légèrement mélancolique ; un 'majeur heureux' avec une fête et une légère agitation.",
+        "theory": "Comme la gamme majeure mais avec 7e abaissée (b7 au lieu de 7), supprimant la sensible et ajoutant une couleur bluesy.",
+        "tips": "La gamme essentielle pour les accords de dominante 7 (V7) en jazz et blues ; des classiques rock comme Sweet Child O' Mine en sont construits."
+      },
+      "dorian": {
+        "origin": "Deuxième mode de la gamme majeure, mis en avant dans l'Antiquité grecque puis relancé en jazz via le bebop et le hard bop.",
+        "character": "Sophistiquée et cool, ressemble à une mineure avec une touche lumineuse ; élégante sans être ostentatoire.",
+        "theory": "Comme la Mineure Naturelle mais avec 6e élevée, donnant une couleur plus brillante et complexe que l'Éolien.",
+        "tips": "Parfaite pour les accords mineurs qui doivent rester lumineux ; fonctionne très bien sur i7 et iv7."
+      },
+      "phrygian": {
+        "origin": "Troisième mode de la gamme majeure, nommé d'après une région grecque antique et central dans la tradition flamenco.",
+        "character": "Sombre et exotique, avec une saveur espagnole ou moyen-orientale ; elle évoque mystère et intensité.",
+        "theory": "Comme la Mineure Naturelle mais avec 2e abaissée, créant un intervalle de seconde mineure près de la tonique.",
+        "tips": "Idéale pour le flamenco, le metal et le néoclassique ; utilisez-la sur i et bII pour un effet sombre et dramatique."
+      },
+      "lydian": {
+        "origin": "Quatrième mode de la gamme majeure, considéré par les Grecs comme représentant l'harmonie 'la plus parfaite' du cosmos.",
+        "character": "Rêveuse et flottante, elle sonne élevée et transcendante ; comme si l'on s'élevait au-dessus des nuages.",
+        "theory": "Comme la gamme majeure mais avec 4e augmentée (#4), conférant une luminosité aspirante absente du majeur standard.",
+        "tips": "Apporte de la magie aux accords majeurs ; utilisez-la sur Imaj7 et Imaj9 pour une atmosphère cinématique et éthérée."
+      },
+      "locrian": {
+        "origin": "Septième mode de la gamme majeure, rarement utilisé comme centre tonal en raison de son instabilité extrême depuis le Moyen Âge.",
+        "character": "Tendu et instable, il semble suspendu et non résolu ; comme au bord d'une falaise.",
+        "theory": "Le mode naturel le plus dissonant, caractérisé par b2 et b5 près de la tonique, générant une tension maximale.",
+        "tips": "À utiliser surtout comme couleur de passage sur les accords diminués ou semi-diminués ; évitez-le comme centre tonal."
+      },
+      "harmonicMinor": {
+        "origin": "Créée au XVIIIe siècle pour restaurer la sensible en tonalité mineure, reliant harmonie classique et sonorités orientales.",
+        "character": "Mystérieuse et exotique, avec une qualité arabe ; elle évoque des cours anciennes et une tension dramatique.",
+        "theory": "Mineure Naturelle avec 7e élevée, créant un grand saut (3 demi-tons) entre les degrés 6 et 7.",
+        "tips": "Idéale pour le néoclassique, le metal et les mélodies inspirées de l'Est ; fonctionne sur i, III, VI, VII."
+      },
+      "melodicMinor": {
+        "origin": "Développée au XVIIIe siècle pour adoucir le mouvement mélodique en mineur, puis adoptée comme base de l'harmonie jazz.",
+        "character": "Élégante et raffinée, elle mêle gravité mineure et clarté ascendante ; comme un thème de chevalier noble.",
+        "theory": "Mineure Naturelle avec 6e et 7e élevées (forme ascendante), la faisant sonner comme une majeure avec b3.",
+        "tips": "Gamme-mère de l'improvisation jazz ; essentielle sur i7, ii7 et dominantes altérées en jazz et fusion."
+      },
+      "lydianDominant": {
+        "origin": "Gamme synthétique (non issue de la gamme majeure) popularisée en jazz pour sa qualité rêveuse mais instable sur les accords de dominante.",
+        "character": "Pétillante et kaléidoscopique, elle sonne comme une gamme majeure réfractée ; joueuse mais non résolue.",
+        "theory": "Comme Lydien (4e augmentée) mais avec 7e abaissée (b7), combinant brillance et tension de dominante.",
+        "tips": "À jouer sur les accords de dominante 7 qui résolvent vers iim7 ; apporte un son moderne et lumineux en jazz et fusion."
+      },
+      "altered": {
+        "origin": "Dérivée de la Super Locrienne en omettant la quinte juste, devenue centrale en jazz après le bebop comme ultime gamme de dominante altérée.",
+        "character": "Ultra tendue et chromatique, elle sonne comme une tempête de notes en mouvement constant ; chaotique mais contrôlée.",
+        "theory": "Comme Locrien mais avec 1er et 2e degrés haussés, supprimant la quinte juste et ajoutant de multiples tensions (b9, #9, #11, b13).",
+        "tips": "La gamme de référence pour les accords de dominante 7 nécessitant des tensions altérées (b9, #9, #11, b13) ; à utiliser avec parcimonie pour un effet dramatique."
+      },
+      "wholeTone": {
+        "origin": "Gamme symétrique de six notes découverte au XIXe siècle, prisée par Debussy et les impressionnistes pour sa qualité onirique.",
+        "character": "Éthérée et flottante, elle dissout la tonalité et crée une atmosphère de merveille suspendue.",
+        "theory": "Toutes les intervalles sont des tons entiers (2 demi-tons), la rendant symétrique et ambiguë ; seules deux transpositions existent.",
+        "tips": "À utiliser pour des passages ambiants, impressionnistes ou surréalistes ; fonctionne bien sur les accords augmentés (C+, C7+) comme remplissage coloré."
+      },
+      "halfWholeDiminished": {
+        "origin": "Gamme symétrique de huit notes née dans le bebop, utilisée pour organiser les notes chromatiques d'un accord de dominante.",
+        "character": "Dense et agitée, elle sonne comme une cascade de dominos ; intense mais contrôlée.",
+        "theory": "Commence par un demi-ton puis un ton entier en alternance (H-T), générant un maximum de mouvement chromatique sur huit notes.",
+        "tips": "Efficace sur les dominantes altérées et comme substitution de dominante ; idéale pour des lignes bebop et des traits chromatiques."
+      },
+      "bebopDominant": {
+        "origin": "Créée par les pionniers du bebop dans les années 1940 en ajoutant une note de passage chromatique à la gamme mixolydienne pour des improvisations plus fluides.",
+        "character": "Énergique et propulsive, elle swingue avec un élan constant ; le son d'une fête en plein mouvement.",
+        "theory": "Gamme mixolydienne avec une 7e majeure ajoutée (avant la fondamentale) servant de note de passage chromatique pour lisser la résolution b7-fondamentale.",
+        "tips": "Conçue pour les passages rapides sur accords de dominante ; ajoute drive et momentum aux improvisations jazz et bebop."
+      }
+    }
   },
   "genres": {
     "pop": "Pop",

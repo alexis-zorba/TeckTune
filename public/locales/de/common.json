@@ -45,7 +45,8 @@
     "tabs": {
       "styles": "Musikstile",
       "scales": "Tonleitern & Songs",
-      "improv": "Improvisation"
+      "improv": "Improvisation",
+      "guide": "Tonleiter-Ratgeber"
     },
     "styles": {
       "title": "Anwendung für Musikgenres",
@@ -135,6 +136,120 @@
     "wholeTone": "Ganztonleiter",
     "halfWholeDiminished": "Halb-Ganz Vermindert",
     "bebopDominant": "Bebop Dominant"
+  },
+  "guide": {
+    "title": "Tonleiter-Ratgeber",
+    "subtitle": "Entdecke Ursprung, Charakter und Geheimnisse jeder Tonleiter",
+    "labels": {
+      "origin": "Ursprung",
+      "character": "Charakter",
+      "theory": "Theorie",
+      "tips": "Anwendungstipps"
+    },
+    "scales": {
+      "majorIonian": {
+        "origin": "Die älteste und universellste Tonleiter der westlichen Musik, die die natürliche Resonanz einer schwingenden Saite kodifiziert.",
+        "character": "Hell, offen und ausgewogen; vermittelt Stabilität und Wohlklang, wie ein Sonnenaufgang.",
+        "theory": "Besteht aus Ganztonschritten außer zwischen den Stufen 3-4 und 7-8 (die beiden Halbtonschritte, die ihre helle Qualität definieren).",
+        "tips": "Standardwahl für Songs in Dur; funktioniert über Dur-Dreiklänge (I, IV, V) und deren Septakkord-Erweiterungen."
+      },
+      "naturalMinorAeolian": {
+        "origin": "Einer der sieben natürlichen Modi der Dur-Tonleiter, seit dem Mittelalter in der europäischen Volksmusik zu finden.",
+        "character": "Melancholisch und introspektiv; ruft Traurigkeit ohne Drama hervor, wie eine leise Klage.",
+        "theory": "Wie Dur, jedoch mit erniedrigter 3, 6 und 7, was den charakteristischen Moll-Klang erzeugt.",
+        "tips": "Unverzichtbar für Songs in Moll, Balladen und emotionalen Rock; passt zu i, iv, VII Akkorden."
+      },
+      "majorPentatonic": {
+        "origin": "Eine Fünf-Noten-Vereinfachung der Dur-Tonleiter, die weltweit in Volksmusiktraditionen von keltisch bis asiatisch vorkommt.",
+        "character": "Frisch und direkt, ohne Dissonanzen; klingt offen und zugänglich, wie eine Melodie aus den Bergen.",
+        "theory": "Dur-Tonleiter ohne 4. und 7. Stufe, entfernt die Halbtonkonflikte für einen reinen Klang.",
+        "tips": "Perfekt für Lead-Melodien in Pop, Country und Rock; beim Improvisieren kaum Fehltritte möglich."
+      },
+      "minorPentatonic": {
+        "origin": "Das Rückgrat des afroamerikanischen Blues, entstanden im amerikanischen Süden aus dem Kontakt afrikanischer und europäischer Traditionen.",
+        "character": "Warm und expressiv mit inhärenter Spannung; klingt soulful und sofort erkennbar.",
+        "theory": "Natürliches Moll ohne 2. und 6. Stufe, es bleiben nur die stabilsten Töne des Moll-Modus.",
+        "tips": "Die Standardtonleiter für Blues- und Rocksoli; kombiniere sie mit der Dur-Pentatonik für den klassischen süß-bitteren Kontrast."
+      },
+      "blues": {
+        "origin": "Entstanden in afroamerikanischen Gemeinschaften im Deep South Ende des 19. Jahrhunderts als Ausdrucksträger für Emotionen.",
+        "character": "Kraftvoll und roh, mit einer bittersüßen Spannung, die einen unwiderstehlichen Groove erzeugt; spricht direkt das Herz an.",
+        "theory": "Moll-Pentatonik mit hinzugefügter b5 (Blue Note), die die charakteristische Dissonanz des Blues definiert.",
+        "tips": "Ideal für ausdrucksstarke Soli in Blues, Rock und Funk; nutze die Blue Note als Durchgangston für authentisches Phrasing."
+      },
+      "mixolydian": {
+        "origin": "Der fünfte Modus der Dur-Tonleiter, in der mittelalterlichen Kirchenmusik genutzt und im Rock'n'Roll der 1950er neu entdeckt.",
+        "character": "Dur, aber leicht melancholisch; ein 'fröhliches Moll', das festlich wirkt, aber mit unterschwelliger Unruhe.",
+        "theory": "Wie Dur, jedoch mit erniedrigter 7 (b7 statt 7), entfernt die Leitton-Funktion und fügt einen bluesigen Charakter hinzu.",
+        "tips": "Die essentielle Skala für Dominantseptakkorde (V7) in Jazz und Blues; Rock-Klassiker wie Sweet Child O' Mine basieren darauf."
+      },
+      "dorian": {
+        "origin": "Der zweite Modus der Dur-Tonleiter, prominent in der griechischen Antike und über Bebop und Hard Bop im Jazz wiederbelebt.",
+        "character": "Raffiniert und cool, klingt wie Moll mit einem hellen Dreh; elegant ohne Effekthascherei.",
+        "theory": "Wie Natürliches Moll, aber mit erhöhter 6. Stufe, wodurch es heller und komplexer als Äolisch wirkt.",
+        "tips": "Perfekt für Moll-Akkorde, die etwas Helligkeit brauchen; funktioniert hervorragend über i7 und iv7."
+      },
+      "phrygian": {
+        "origin": "Der dritte Modus der Dur-Tonleiter, benannt nach einer antiken griechischen Region und zentral in der Flamenco-Tradition.",
+        "character": "Dunkel und exotisch, mit spanischem oder nahöstlichem Flair; vermittelt Geheimnis und Intensität.",
+        "theory": "Wie Natürliches Moll, aber mit erniedrigter 2. Stufe, erzeugt eine charakteristische kleine Sekunde nahe dem Grundton.",
+        "tips": "Großartig für Flamenco, Metal und Neoklassik; nutze sie über i und bII für einen dunklen, dramatischen Effekt."
+      },
+      "lydian": {
+        "origin": "Der vierte Modus der Dur-Tonleiter, von den antiken Griechen als Darstellung der 'perfektesten Harmonie' des Kosmos angesehen.",
+        "character": "Verträumt und schwebend, klingt erhöht und transzendent; wie über den Wolken schweben.",
+        "theory": "Wie Dur, aber mit erhöhter 4. Stufe (#4), verleiht eine leuchtende, aufstrebende Qualität, die im Standard-Dur fehlt.",
+        "tips": "Verleiht Dur-Akkorden Magie; spiele sie über Imaj7 und Imaj9 für eine filmische, ätherische Atmosphäre."
+      },
+      "locrian": {
+        "origin": "Der siebte Modus der Dur-Tonleiter, aufgrund seiner extremen Instabilität seit dem Mittelalter selten als Tonzentrum genutzt.",
+        "character": "Gespannt und instabil, fühlt sich schwebend und unaufgelöst an; wie am Rand einer Klippe.",
+        "theory": "Der dissonanteste natürliche Modus, gekennzeichnet durch b2 und b5 nahe dem Grundton, erzeugt maximale Spannung.",
+        "tips": "Am besten als Durchgangsfarbe über verminderten oder halbverminderten Akkorden; vermeiden Sie ihn als Tonzentrum."
+      },
+      "harmonicMinor": {
+        "origin": "Im 18. Jahrhundert geschaffen, um den Leitton in Molltonarten wiederherzustellen, verbindet klassische Harmonie mit exotischen östlichen Klängen.",
+        "character": "Geheimnisvoll und exotisch, mit arabesker Note; ruft antike Höfe und dramatische Spannung hervor.",
+        "theory": "Natürliches Moll mit erhöhter 7. Stufe, erzeugt einen großen Sprung (3 Halbtöne) zwischen 6. und 7. Stufe.",
+        "tips": "Ideal für neoklassische Stücke, Metal und östlich inspirierte Melodien; funktioniert über i, III, VI, VII."
+      },
+      "melodicMinor": {
+        "origin": "Im 18. Jahrhundert entwickelt, um die melodische Bewegung in Moll zu glätten, später als Basis der Jazzharmonie übernommen.",
+        "character": "Elegant und fein, verbindet Moll-Schwere mit klarer, aufsteigender Qualität; wie ein edles Ritterthema.",
+        "theory": "Natürliches Moll mit erhöhter 6. und 7. Stufe (aufsteigende Form), klingt wie eine Dur-Skala mit b3.",
+        "tips": "Die Mutter-Skala der Jazzimprovisation; essenziell über i7, ii7 und alterierten Dominanten in Jazz und Fusion."
+      },
+      "lydianDominant": {
+        "origin": "Eine synthetische Skala (nicht aus der Dur-Tonleiter) und im Jazz beliebt für ihre traumhafte, aber instabile Wirkung über Dominantakkorde.",
+        "character": "Sprudelnd und kaleidoskopisch, klingt wie eine Dur-Skala durch ein Prisma gebrochen; verspielt, aber unaufgelöst.",
+        "theory": "Wie Lydisch (erhöhte 4), aber mit erniedrigter 7 (b7), kombiniert Helligkeit mit Dominant-Spannung.",
+        "tips": "Spiele sie über Dominant7-Akkorde, die zu iim7 auflösen; verleiht Jazz und Fusion einen modernen, leuchtenden Klang."
+      },
+      "altered": {
+        "origin": "Abgeleitet aus der Super-Lokrischen durch Weglassen der reinen Quinte, wurde sie nach der Bebop-Ära zur zentralen Skala für alterierte Dominanten.",
+        "character": "Ultraspannend und chromatisch, klingt wie ein Sturm von Noten in ständiger Bewegung; chaotisch, aber kontrolliert.",
+        "theory": "Wie Lokrisch, aber mit erhöhter 1. und 2. Stufe, entfernt die Quinte und fügt mehrere Spannungen hinzu (b9, #9, #11, b13).",
+        "tips": "Die Standardskala für Dominantseptakkorde mit alterierten Spannungen (b9, #9, #11, b13); sparsam einsetzen für dramatische Wirkung."
+      },
+      "wholeTone": {
+        "origin": "Eine symmetrische Sechs-Noten-Skala aus dem 19. Jahrhundert, geschätzt von Impressionisten wie Debussy für ihre traumhafte Qualität.",
+        "character": "Ätherisch und schwebend, löst das Tonalitätsgefühl auf und schafft eine Atmosphäre schwebenden Staunens.",
+        "theory": "Alle Intervalle sind Ganztonschritte (2 Halbtöne), sie ist symmetrisch und mehrdeutig; es gibt nur zwei Transpositionen.",
+        "tips": "Einsetzbar für Ambient-, impressionistische oder surrealistische Passagen; funktioniert gut über übermäßige Akkorde (C+, C7+) als farbiger Füller."
+      },
+      "halfWholeDiminished": {
+        "origin": "Eine symmetrische Acht-Noten-Skala aus dem Bebop, genutzt, um die chromatischen Noten eines Dominantakkords organisiert zu durchschreiten.",
+        "character": "Dicht und ruhelos, klingt wie eine Kaskade fallender Dominosteine; intensiv, aber kontrolliert.",
+        "theory": "Beginnt mit Halbton, dann Ganzton im Wechsel (H-G), erzeugt maximal chromatische Bewegung über acht Noten.",
+        "tips": "Wirksam über alterierten Dominanten und als Dominant-Substitut; ideal für Bebop-Linien und chromatische Läufe."
+      },
+      "bebopDominant": {
+        "origin": "In den 1940ern von Bebop-Pionieren entwickelt, indem der mixolydischen Skala ein chromatischer Durchgangston hinzugefügt wurde, um Improvisationen flüssiger zu machen.",
+        "character": "Energisch und antreibend, swingt mit konstantem Vorwärtsdrang; der Klang einer Party in vollem Gange.",
+        "theory": "Mixolydische Skala mit hinzugefügter großer 7 (vor dem Grundton) als chromatischer Durchgangston, um die Auflösung b7-Root zu glätten.",
+        "tips": "Entwickelt für schnelle Dominant-Passagen; verleiht Jazz- und Bebop-Improvisationen Drive und Momentum."
+      }
+    }
   },
   "genres": {
     "pop": "Pop",

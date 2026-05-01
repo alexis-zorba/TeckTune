@@ -1,12 +1,34 @@
 import { useState } from 'react';
 import { cn } from '../lib/utils';
-import { Library, Music4, Lightbulb, Guitar } from 'lucide-react';
+import { Library, Music4, Lightbulb, Guitar, BookOpen } from 'lucide-react';
+import { SCALES } from '../lib/music';
 import { useTranslation } from '../i18n';
 
-type Tab = 'styles' | 'scales' | 'improv';
+type Tab = 'styles' | 'scales' | 'improv' | 'guide';
+
+const SCALE_GUIDE_KEY_MAP: Record<string, string> = {
+  'Major (Ionian)': 'majorIonian',
+  'Natural Minor (Aeolian)': 'naturalMinorAeolian',
+  'Major Pentatonic': 'majorPentatonic',
+  'Minor Pentatonic': 'minorPentatonic',
+  'Blues': 'blues',
+  'Mixolydian': 'mixolydian',
+  'Dorian': 'dorian',
+  'Phrygian': 'phrygian',
+  'Lydian': 'lydian',
+  'Locrian': 'locrian',
+  'Harmonic Minor': 'harmonicMinor',
+  'Melodic Minor': 'melodicMinor',
+  'Lydian Dominant': 'lydianDominant',
+  'Altered (Super Locrian)': 'altered',
+  'Whole Tone': 'wholeTone',
+  'Half-Whole Diminished': 'halfWholeDiminished',
+  'Bebop Dominant': 'bebopDominant',
+};
 
 export function TheorySection() {
   const [activeTab, setActiveTab] = useState<Tab>('styles');
+  const [openScale, setOpenScale] = useState<string | null>(null);
   const { t } = useTranslation();
 
   return (
@@ -54,6 +76,18 @@ export function TheorySection() {
         >
           <Lightbulb size={18} />
           {t('theory.tabs.improv')}
+        </button>
+        <button
+          onClick={() => setActiveTab('guide')}
+          className={cn(
+            "flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300",
+            activeTab === 'guide'
+              ? "bg-[#10B981] text-black shadow-[0_0_20px_rgba(16,185,129,0.4)]"
+              : "bg-[#151619] text-[#8E9299] hover:bg-[#2A2A2B] hover:text-white border border-white/5"
+          )}
+        >
+          <BookOpen size={18} />
+          {t('theory.tabs.guide')}
         </button>
       </div>
 
@@ -203,6 +237,71 @@ export function TheorySection() {
                  </div>
                </div>
             </div>
+          </div>
+        )}
+
+        {activeTab === 'guide' && (
+          <div className="space-y-3 animate-in fade-in slide-in-from-bottom-4 duration-500">
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-white mb-2">{t('guide.title')}</h3>
+              <p className="text-white/60 text-sm">{t('guide.subtitle')}</p>
+            </div>
+            
+            {SCALES.map((scale) => {
+              const guideKey = SCALE_GUIDE_KEY_MAP[scale.name];
+              if (!guideKey) return null;
+              const isOpen = openScale === scale.name;
+              
+              return (
+                <div
+                  key={scale.name}
+                  className="rounded-xl border border-white/10 overflow-hidden transition-all duration-300"
+                >
+                  {/* Header accordion */}
+                  <button
+                    onClick={() => setOpenScale(isOpen ? null : scale.name)}
+                    className="w-full flex items-center justify-between px-5 py-4 bg-white/5 hover:bg-white/10 transition-colors text-left"
+                  >
+                    <div className="flex items-center gap-3">
+                      <span className="text-[#F27D26] font-semibold text-sm">
+                        {t(`scales.${guideKey}`)}
+                      </span>
+                      <div className="flex gap-1 flex-wrap">
+                        {scale.styles.map((style) => (
+                          <span
+                            key={style}
+                            className="text-[10px] px-2 py-0.5 rounded-full bg-white/10 text-white/50"
+                          >
+                            {t(`genres.${style.toLowerCase()}`) !== `genres.${style.toLowerCase()}` 
+                              ? t(`genres.${style.toLowerCase()}`) 
+                              : style}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                    <span className={`text-white/40 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
+                      ▼
+                    </span>
+                  </button>
+                  
+                  {/* Corpo accordion */}
+                  {isOpen && (
+                    <div className="px-5 py-4 bg-white/[0.02] grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-top-2 duration-300">
+                      {(['origin', 'character', 'theory', 'tips'] as const).map((field) => (
+                        <div key={field} className="space-y-1">
+                          <div className="text-xs font-semibold text-[#F27D26]/80 uppercase tracking-wider">
+                            {t(`guide.labels.${field}`)}
+                          </div>
+                          <p className="text-white/70 text-sm leading-relaxed">
+                            {t(`guide.scales.${guideKey}.${field}`)}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         )}
       </div>

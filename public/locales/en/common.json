@@ -42,11 +42,12 @@
   "theory": {
     "title": "Theoretical Guide to Scales",
     "subtitle": "Discover how scales are used across different genres, which famous songs use them, and practical tips for improvisation.",
-    "tabs": {
-      "styles": "Musical Styles",
-      "scales": "Scales & Songs",
-      "improv": "Improvisation"
-    },
+      "tabs": {
+        "styles": "Musical Styles",
+        "scales": "Scales & Songs",
+        "improv": "Improvisation",
+        "guide": "Scale Guide"
+      },
     "styles": {
       "title": "Application for Musical Genres",
       "bluesRock": {
@@ -135,6 +136,120 @@
     "wholeTone": "Whole Tone",
     "halfWholeDiminished": "Half-Whole Diminished",
     "bebopDominant": "Bebop Dominant"
+  },
+  "guide": {
+    "title": "Scale Guide",
+    "subtitle": "Discover the origin, character and secrets of every scale",
+    "labels": {
+      "origin": "Origin",
+      "character": "Character",
+      "theory": "Theory",
+      "tips": "Tips for use"
+    },
+    "scales": {
+      "majorIonian": {
+        "origin": "The oldest and most universal scale in Western music, codifying the natural resonance of a vibrating string.",
+        "character": "Bright, open and balanced; it conveys stability and pleasantness, like a sunrise.",
+        "theory": "Made of whole tones except between degrees 3-4 and 7-8 (the two semitones that define its bright quality).",
+        "tips": "The default choice for major-key songs; works over major triads (I, IV, V) and their seventh extensions."
+      },
+      "naturalMinorAeolian": {
+        "origin": "One of the seven natural modes of the Major scale, appearing in European folk music since the Middle Ages.",
+        "character": "Melancholic and introspective; it evokes sadness without drama, like a quiet lament.",
+        "theory": "Like Major but with a lowered 3rd, 6th and 7th, creating the characteristic minor sound.",
+        "tips": "Essential for minor-key songs, ballads and emotional rock ballads; fit with i, iv, VII chords."
+      },
+      "majorPentatonic": {
+        "origin": "A five-note simplification of the Major scale found in folk traditions worldwide, from Celtic to Asian music.",
+        "character": "Fresh and direct, with no dissonances; it sounds open and accessible, like a mountain melody.",
+        "theory": "Major scale stripped of the 4th and 7th degrees, removing the semitone clashes for a pure sound.",
+        "tips": "Perfect for lead melodies in pop, country and rock; hard to make mistakes when improvising."
+      },
+      "minorPentatonic": {
+        "origin": "The backbone of African-American blues, developed in the American South from the contact of African and European traditions.",
+        "character": "Warm and expressive with an inherent tension; it feels soulful and instantly recognizable.",
+        "theory": "Natural Minor without the 2nd and 6th degrees, leaving only the most stable notes of the minor mode.",
+        "tips": "The go-to scale for blues and rock solos; pair it with the Major Pentatonic for the classic sweet-bitter contrast."
+      },
+      "blues": {
+        "origin": "Born in the African-American communities of the Deep South in the late 19th century as a vehicle for emotional expression.",
+        "character": "Powerful and raw, with a bittersweet tension that creates an irresistible groove; it speaks directly to the heart.",
+        "theory": "Minor Pentatonic with an added b5 (blue note), creating a distinctive dissonance that defines the blues sound.",
+        "tips": "Ideal for expressive solos in blues, rock and funk; use the blue note as a passing tone for authentic phrasing."
+      },
+      "mixolydian": {
+        "origin": "The fifth mode of the Major scale, used in medieval church music and rediscovered in rock and roll in the 1950s.",
+        "character": "Major yet slightly melancholic; a 'happy minor' that feels festive but with an underlying restlessness.",
+        "theory": "Like Major but with a lowered 7th (b7 instead of 7), removing the leading tone and adding a bluesy flavor.",
+        "tips": "The essential scale for dominant 7th chords (V7) in jazz and blues; rock classics like Sweet Child O' Mine are built on it."
+      },
+      "dorian": {
+        "origin": "The second mode of the Major scale, prominent in Greek antiquity and revived in jazz via bebop and hard bop.",
+        "character": "Sophisticated and cool, it sounds like a minor scale with a bright twist; elegant without being flashy.",
+        "theory": "Like Natural Minor but with a raised 6th degree, giving it a brighter, more complex color than Aeolian.",
+        "tips": "Perfect for minor chords that need a touch of brightness; works beautifully over i7 and iv7 progressions."
+      },
+      "phrygian": {
+        "origin": "The third mode of the Major scale, named after an ancient Greek region and central to flamenco guitar tradition.",
+        "character": "Dark and exotic, with a Spanish or Middle Eastern flavor; it conveys mystery and intensity.",
+        "theory": "Like Natural Minor but with a lowered 2nd degree, creating a characteristic minor-second interval near the root.",
+        "tips": "Great for flamenco, metal and neoclassical pieces; use it over i and bII chords for a dark, dramatic effect."
+      },
+      "lydian": {
+        "origin": "The fourth mode of the Major scale, considered by the ancient Greeks to represent the 'most perfect harmony' of the cosmos.",
+        "character": "Dreamy and floating, it sounds elevated and transcendent; like rising above the clouds.",
+        "theory": "Like Major but with a raised 4th degree (#4), creating a luminous, aspirational quality absent in the standard major scale.",
+        "tips": "Adds magic to major chords; use over Imaj7 and Imaj9 to create a cinematic, ethereal atmosphere."
+      },
+      "locrian": {
+        "origin": "The seventh mode of the Major scale, rarely used as a tonal center due to its extreme instability since medieval times.",
+        "character": "Tense and unstable, it feels suspended and unresolved; like standing on the edge of a cliff.",
+        "theory": "The most dissonant natural mode, characterized by a b2 and b5 near the root, creating maximum tension.",
+        "tips": "Best used as a passing color over diminished or half-diminished chords; avoid as a tonal center."
+      },
+      "harmonicMinor": {
+        "origin": "Created in the 18th century to restore the leading tone in minor keys, bridging classical harmony and exotic Eastern sounds.",
+        "character": "Mysterious and exotic, with an Arabesque quality; it evokes ancient courts and dramatic tension.",
+        "theory": "Natural Minor with a raised 7th degree, creating a large leap (3 semitones) between the 6th and 7th degrees.",
+        "tips": "Ideal for neoclassical pieces, metal and Eastern-inspired melodies; works over i, III, VI, VII chords."
+      },
+      "melodicMinor": {
+        "origin": "Developed in the 18th century to smooth the melodic motion in minor keys, later adopted as the basis for jazz harmony.",
+        "character": "Elegant and refined, it blends minor gravity with a clear, soaring quality; like a noble knight's theme.",
+        "theory": "Natural Minor with raised 6th and 7th degrees (ascending form), making it sound like a major scale with a b3.",
+        "tips": "The parent scale of jazz improvisation; essential for over i7, ii7, and altered dominants in jazz and fusion."
+      },
+      "lydianDominant": {
+        "origin": "A synthetic scale (not from the Major scale) popularized in jazz for its dreamy yet unstable quality over dominant chords.",
+        "character": "Bubbly and kaleidoscopic, it sounds like a major scale refracted through a crystal; playful yet unresolved.",
+        "theory": "Like Lydian (raised 4th) but with a b7 instead of the major 7th, combining brightness with dominant tension.",
+        "tips": "Play over dominant 7th chords that resolve to iim7; adds a modern, luminous sound to jazz and fusion."
+      },
+      "altered": {
+        "origin": "Derived from Super Locrian by omitting the P5, it became central to jazz after the bebop era as the ultimate altered dominant scale.",
+        "character": "Ultra-tense and chromatic, it sounds like a storm of notes in constant motion; chaotic but controlled.",
+        "theory": "Like Locrian but with raised 1st and 2nd degrees, removing the perfect 5th and adding multiple tensions (b9, #9, #11, b13).",
+        "tips": "The go-to scale for dominant 7th chords needing altered tensions (b9, #9, #11, b13); use sparingly for dramatic effect."
+      },
+      "wholeTone": {
+        "origin": "A symmetric six-note scale discovered in the 19th century, prized by Impressionist composers like Debussy for its dreamlike quality.",
+        "character": "Ethereal and floating, it dissolves the sense of tonality creating an atmosphere of suspended wonder.",
+        "theory": "All intervals are whole tones (2 semitones), making it symmetric and ambiguous; only two transpositions exist.",
+        "tips": "Use for ambient, Impressionist or surrealist passages; works well over augmented chords (C+, C7+) as a colorful fill."
+      },
+      "halfWholeDiminished": {
+        "origin": "A symmetric eight-note scale born in bebop jazz, used as an organized way to navigate the chromatic notes of a dominant chord.",
+        "character": "Dense and restless, it sounds like a cascade of falling dominoes; intense but controlled.",
+        "theory": "Starts with a semitone then whole tone alternating (H-W), creating maximum chromatic movement across all eight notes.",
+        "tips": "Effective over altered dominants and as a dominant substitute; great for bebop lines and chromatic runs."
+      },
+      "bebopDominant": {
+        "origin": "Created by bebop pioneers in the 1940s by adding a chromatic passing tone to the Mixolydian scale for more fluid improvisations.",
+        "character": "Energetic and propulsive, it swings with a relentless forward motion; the sound of a party in full swing.",
+        "theory": "Mixolydian scale with an added major 7th (before the root) acting as a chromatic passing note to smooth the b7-root resolution.",
+        "tips": "Designed for fast dominant-chord passages; adds drive and momentum to jazz and bebop improvisation."
+      }
+    }
   },
   "genres": {
     "pop": "Pop",

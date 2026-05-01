@@ -45,7 +45,8 @@
     "tabs": {
       "styles": "Stiluri Muzicale",
       "scales": "Game și Cântece",
-      "improv": "Improvizație"
+      "improv": "Improvizație",
+      "guide": "Ghid de Game"
     },
     "styles": {
       "title": "Aplicație pentru Genuri Muzicale",
@@ -135,6 +136,120 @@
     "wholeTone": "Gama de Tonuri Întregi",
     "halfWholeDiminished": "Semiton-Ton Diminuată",
     "bebopDominant": "Bebop Dominantă"
+  },
+  "guide": {
+    "title": "Ghid de Game",
+    "subtitle": "Descoperă originea, caracterul și secretele fiecărei game",
+    "labels": {
+      "origin": "Origine",
+      "character": "Caracter",
+      "theory": "Teorie",
+      "tips": "Sfaturi de utilizare"
+    },
+    "scales": {
+      "majorIonian": {
+        "origin": "Cea mai veche și universală gamă din muzica occidentală, care codifică rezonanța naturală a unei corzi vibrante.",
+        "character": "Luminoasă, deschisă și echilibrată; transmite stabilitate și plăcere, ca un răsărit de soare.",
+        "theory": "Formată din tonuri întregi, cu excepția intervalelor dintre treptele 3-4 și 7-8 (cele două semitonuri care îi definesc luminozitatea).",
+        "tips": "Alegerea implicită pentru piesele în tonalitate majoră; funcționează pe triade majore (I, IV, V) și extensiile lor de septimă."
+      },
+      "naturalMinorAeolian": {
+        "origin": "Unul dintre cei șapte moduri naturale ale gamei majore, prezent în folclorul european încă din Evul Mediu.",
+        "character": "Melancolică și introspectivă; evocă tristețe fără dramatism, ca un bocet liniștit.",
+        "theory": "Ca gama majoră, dar cu treptele 3, 6 și 7 coborâte, creând culoarea minoră caracteristică.",
+        "tips": "Esentială pentru piese în tonalitate minoră, balade și rock emoțional; se potrivește cu acordurile i, iv, VII."
+      },
+      "majorPentatonic": {
+        "origin": "O simplificare în cinci note a gamei majore, prezentă în tradițiile folclorice din întreaga lume, de la celtică la asiatică.",
+        "character": "Proaspătă și directă, fără disonanțe; sună deschis și accesibil, ca o melodie de munte.",
+        "theory": "Gama majoră fără treptele 4 și 7, eliminând semitonurile pentru un sunet pur.",
+        "tips": "Perfectă pentru linii melodice în pop, country și rock; greu să greșești când improvizezi cu ea."
+      },
+      "minorPentatonic": {
+        "origin": "Coloana vertebrală a blues-ului afro-american, dezvoltată în sudul SUA din contactul tradițiilor africane și europene.",
+        "character": "Caldă și expresivă, cu o tensiune inerentă; sună soulful și imediat recognoscibilă.",
+        "theory": "Minoră Naturală fără treptele 2 și 6, lăsând doar notele cele mai stabile ale modului minor.",
+        "tips": "Gama de bază pentru solo-uri de blues și rock; combin-o cu Pentatonica Majoră pentru contrastul clasic dulce-amar."
+      },
+      "blues": {
+        "origin": "Născută în comunitățile afro-americane din Deep South la sfârșitul secolului XIX ca mijloc de expresie emoțională.",
+        "character": "Puternică și brută, cu o tensiune dulce-amară care creează un groove irezistibil; vorbește direct inimii.",
+        "theory": "Pentatonică minoră cu o b5 adăugată (blue note), creând disonanța distinctivă a sunetului blues.",
+        "tips": "Ideală pentru solo-uri expresive în blues, rock și funk; folosește blue note ca notă de pasaj pentru frazare autentică."
+      },
+      "mixolydian": {
+        "origin": "Al cincilea mod al gamei majore, utilizat în muzica bisericească medievală și redescoperit în rock and roll-ul anilor '50.",
+        "character": "Majoră dar ușor melancolică; un 'major fericit' cu spirit festiv și neliniște subtilă.",
+        "theory": "Ca gama majoră dar cu treapta 7 coborâtă (b7 în loc de 7), eliminând sensibila și adăugând o tentă bluesy.",
+        "tips": "Gama esențială pentru acorduri de dominantă 7 (V7) în jazz și blues; clasice rock precum Sweet Child O' Mine sunt construite pe ea."
+      },
+      "dorian": {
+        "origin": "Al doilea mod al gamei majore, proeminent în Antichitatea greacă și readus în jazz prin bebop și hard bop.",
+        "character": "Rafinată și cool, sună ca o minoră cu un plus de lumină; elegantă fără a fi ostentativă.",
+        "theory": "Ca Minora Naturală dar cu treapta a 6-a ridicată, oferind o culoare mai luminoasă și complexă decât Eolica.",
+        "tips": "Perfectă pentru acorduri minore ce au nevoie de un strop de luminozitate; funcționează excelent pe i7 și iv7."
+      },
+      "phrygian": {
+        "origin": "Al treilea mod al gamei majore, numit după o regiune antică greacă și central în tradiția flamenco.",
+        "character": "Întunecată și exotică, cu parfum spaniol sau oriental; transmite mister și intensitate.",
+        "theory": "Ca Minora Naturală dar cu treapta a 2-a coborâtă, creând o secundă mică caracteristică lângă tonic.",
+        "tips": "Excelentă pentru flamenco, metal și neoclasic; folosește-o pe i și bII pentru un efect întunecat și dramatic."
+      },
+      "lydian": {
+        "origin": "Al patrulea mod al gamei majore, considerat de grecii antici drept reprezentarea 'armoniei celei mai perfecte' a cosmosului.",
+        "character": "Visătoare și plutitoare, sună înălțată și transcendentă; ca și cum ai pluti deasupra norilor.",
+        "theory": "Ca gama majoră dar cu treapta a 4-a ridicată (#4), adăugând o calitate luminoasă și aspirantă absentă în majorul standard.",
+        "tips": "Aduce magie acordurilor majore; folosește-o pe Imaj7 și Imaj9 pentru o atmosferă cinematografică și eterică."
+      },
+      "locrian": {
+        "origin": "Al șaptelea mod al gamei majore, rar folosit ca centru tonal din cauza instabilității extreme încă din Evul Mediu.",
+        "character": "Tensionată și instabilă, se simte suspendată și nerezolvată; ca și cum ai sta pe marginea unei prăpastii.",
+        "theory": "Cel mai disonant mod natural, caracterizat de b2 și b5 lângă tonic, generând tensiune maximă.",
+        "tips": "Cel mai bine folosit ca nuanță de trecere peste acorduri diminuate sau semidiminuate; evită-l ca centru tonal."
+      },
+      "harmonicMinor": {
+        "origin": "Creată în secolul al XVIII-lea pentru a restaura sensibila în tonalitățile minore, făcând legătura între armonia clasică și sonoritățile orientale exotice.",
+        "character": "Misterioasă și exotică, cu un aer arabesc; evocă curți antice și tensiune dramatică.",
+        "theory": "Minoră Naturală cu treapta a 7-a ridicată, creând un salt mare (3 semitonuri) între treptele 6 și 7.",
+        "tips": "Ideală pentru piese neoclasice, metal și melodii cu inspirație orientală; funcționează pe i, III, VI, VII."
+      },
+      "melodicMinor": {
+        "origin": "Dezvoltată în secolul al XVIII-lea pentru a netezi mișcarea melodică în tonalitățile minore, apoi adoptată ca bază a armoniei jazz.",
+        "character": "Elegantă și rafinată, îmbină gravitația minoră cu o claritate ascendentă; ca tema unui cavaler nobil.",
+        "theory": "Minoră Naturală cu treptele 6 și 7 ridicate (forma ascendentă), făcând-o să sune ca o gamă majoră cu b3.",
+        "tips": "Gama-mamă a improvizației jazz; esențială peste i7, ii7 și dominante alterate în jazz și fusion."
+      },
+      "lydianDominant": {
+        "origin": "Gamă sintetică (ne-derivată din major) popularizată în jazz pentru calitatea sa visătoare dar instabilă pe acordurile de dominantă.",
+        "character": "Efervescentă și caleidoscopică, sună ca o gamă majoră refractată; jucăușă dar nerezolvată.",
+        "theory": "Ca Lidiană (4 ridicat) dar cu 7 coborâtă (b7), combinând luminozitatea cu tensiunea de dominantă.",
+        "tips": "Cânt-o pe acorduri de dominantă 7 care rezolvă spre iim7; adaugă un sunet modern și luminos în jazz și fusion."
+      },
+      "altered": {
+        "origin": "Derivată din Super Locriană prin omiterea cvintei perfecte, a devenit centrală în jazz după era bebop ca gamă supremă pentru dominante alterate.",
+        "character": "Ultratensionată și cromatică, sună ca o furtună de note în mișcare constantă; haotică dar controlată.",
+        "theory": "Ca Locriană dar cu treptele 1 și 2 ridicate, eliminând cvinta perfectă și adăugând multiple tensiuni (b9, #9, #11, b13).",
+        "tips": "Gama de referință pentru acorduri de dominantă 7 care cer tensiuni alterate (b9, #9, #11, b13); folosește-o cu moderație pentru efect dramatic."
+      },
+      "wholeTone": {
+        "origin": "Gamă simetrică de șase note descoperită în secolul al XIX-lea, apreciată de impresioniști precum Debussy pentru calitatea sa onirică.",
+        "character": "Eterică și plutitoare, dizolvă senzația de tonalitate, creând o atmosferă de uimire suspendată.",
+        "theory": "Toate intervalele sunt tonuri întregi (2 semitonuri), făcând-o simetrică și ambiguă; există doar două transpoziții.",
+        "tips": "Folosește-o pentru pasaje ambientale, impresioniste sau suprarealiste; merge bine pe acorduri mărite (C+, C7+) ca umplutură colorată."
+      },
+      "halfWholeDiminished": {
+        "origin": "Gamă simetrică de opt note apărută în bebop, folosită pentru a parcurge organizat notele cromatice ale unui acord de dominantă.",
+        "character": "Densă și neliniștită, sună ca o cascadă de piese de domino; intensă dar controlată.",
+        "theory": "Începe cu semiton apoi ton întreg alternativ (S-T), generând mișcare cromatică maximă pe opt note.",
+        "tips": "Eficientă pe dominante alterate și ca substitut de dominantă; ideală pentru linii bebop și pasaje cromatice."
+      },
+      "bebopDominant": {
+        "origin": "Creată de pionierii bebop-ului în anii '40 prin adăugarea unei note de pasaj cromatice la gama mixolidiană pentru improvizații mai fluide.",
+        "character": "Energică și propulsivă, swing-uiește cu un impuls constant; sunetul unei petreceri în plină desfășurare.",
+        "theory": "Gamă mixolidiană cu o a 7-a majoră adăugată (înainte de fundamentală) ca notă de pasaj cromatică pentru a netezi rezoluția b7-fundamentală.",
+        "tips": "Gândită pentru pasaje rapide pe acorduri de dominantă; adaugă drive și momentum improvizațiilor de jazz și bebop."
+      }
+    }
   },
   "genres": {
     "pop": "Pop",

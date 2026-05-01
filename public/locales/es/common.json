@@ -45,7 +45,8 @@
     "tabs": {
       "styles": "Estilos Musicales",
       "scales": "Escalas y Canciones",
-      "improv": "Improvisación"
+      "improv": "Improvisación",
+      "guide": "Guía de Escalas"
     },
     "styles": {
       "title": "Aplicación para Géneros Musicales",
@@ -135,6 +136,120 @@
     "wholeTone": "Escala de Tonos Enteros",
     "halfWholeDiminished": "Semitono-Tono Disminuida",
     "bebopDominant": "Bebop Dominante"
+  },
+  "guide": {
+    "title": "Guía de Escalas",
+    "subtitle": "Descubre el origen, el carácter y los secretos de cada escala",
+    "labels": {
+      "origin": "Origen",
+      "character": "Carácter",
+      "theory": "Teoría",
+      "tips": "Consejos de uso"
+    },
+    "scales": {
+      "majorIonian": {
+        "origin": "La escala más antigua y universal de la música occidental, que codifica la resonancia natural de una cuerda vibrante.",
+        "character": "Brillante, abierta y equilibrada; transmite estabilidad y agrado, como un amanecer.",
+        "theory": "Compuesta por tonos enteros salvo entre los grados 3-4 y 7-8 (los dos semitonos que definen su cualidad luminosa).",
+        "tips": "Elección por defecto para canciones en tono mayor; funciona sobre triadas mayores (I, IV, V) y sus extensiones con séptima."
+      },
+      "naturalMinorAeolian": {
+        "origin": "Uno de los siete modos naturales de la escala mayor, presente en la música folclórica europea desde la Edad Media.",
+        "character": "Melancólica e introspectiva; evoca tristeza sin drama, como un lamento suave.",
+        "theory": "Como la escala mayor pero con 3ª, 6ª y 7ª rebajadas, creando el color menor característico.",
+        "tips": "Imprescindible para canciones en tonalidad menor, baladas y rock emotivo; encaja con acordes i, iv, VII."
+      },
+      "majorPentatonic": {
+        "origin": "Una simplificación de cinco notas de la escala mayor, presente en tradiciones folclóricas de todo el mundo, de la celta a la asiática.",
+        "character": "Fresca y directa, sin disonancias; suena abierta y accesible, como una melodía de montaña.",
+        "theory": "Escala mayor sin los grados 4 y 7, eliminando los choques de semitono para un sonido puro.",
+        "tips": "Perfecta para melodías principales en pop, country y rock; es difícil equivocarse al improvisar con ella."
+      },
+      "minorPentatonic": {
+        "origin": "La columna vertebral del blues afroamericano, desarrollada en el sur de EE. UU. del contacto entre tradiciones africanas y europeas.",
+        "character": "Cálida y expresiva con una tensión inherente; suena soulful e inmediatamente reconocible.",
+        "theory": "Menor Natural sin los grados 2 y 6, dejando solo las notas más estables del modo menor.",
+        "tips": "La escala de referencia para solos de blues y rock; combínala con la Pentatónica Mayor para el contraste agridulce clásico."
+      },
+      "blues": {
+        "origin": "Nacida en las comunidades afroamericanas del Deep South a finales del siglo XIX como vehículo de expresión emocional.",
+        "character": "Poderosa y cruda, con una tensión agridulce que crea un groove irresistible; habla directo al corazón.",
+        "theory": "Pentatónica menor con una b5 añadida (blue note), creando la disonancia distintiva del sonido blues.",
+        "tips": "Ideal para solos expresivos en blues, rock y funk; usa la blue note como nota de paso para un fraseo auténtico."
+      },
+      "mixolydian": {
+        "origin": "Quinto modo de la escala mayor, usado en la música de iglesia medieval y redescubierto en el rock and roll de los años 50.",
+        "character": "Mayor pero levemente melancólica; un 'mayor feliz' con espíritu festivo y una inquietud de fondo.",
+        "theory": "Como la escala mayor pero con 7ª rebajada (b7 en lugar de 7), eliminando la sensible y añadiendo un color bluesy.",
+        "tips": "La escala esencial para acordes de dominante 7 (V7) en jazz y blues; clásicos del rock como Sweet Child O' Mine se construyen sobre ella."
+      },
+      "dorian": {
+        "origin": "Segundo modo de la escala mayor, prominente en la Antigüedad griega y reintroducido en el jazz a través del bebop y hard bop.",
+        "character": "Sofisticada y cool, suena como una escala menor con un giro luminoso; elegante sin ser ostentosa.",
+        "theory": "Como la Menor Natural pero con 6ª elevada, lo que le da un color más brillante y complejo que la Eólica.",
+        "tips": "Perfecta para acordes menores que necesitan un toque de luz; funciona muy bien sobre i7 e iv7."
+      },
+      "phrygian": {
+        "origin": "Tercer modo de la escala mayor, nombrado por una antigua región griega y central en la tradición flamenca.",
+        "character": "Oscura y exótica, con sabor español o medio oriental; transmite misterio e intensidad.",
+        "theory": "Como la Menor Natural pero con 2ª rebajada, creando una segunda menor característica cerca de la tónica.",
+        "tips": "Genial para flamenco, metal y neoclásico; úsala sobre i y bII para un efecto oscuro y dramático."
+      },
+      "lydian": {
+        "origin": "Cuarto modo de la escala mayor, considerado por los antiguos griegos como la 'armonía más perfecta' del cosmos.",
+        "character": "Soñadora y flotante, suena elevada y trascendente; como elevarse por encima de las nubes.",
+        "theory": "Como la escala mayor pero con 4ª aumentada (#4), aportando una cualidad luminosa y aspiracional ausente en la mayor estándar.",
+        "tips": "Añade magia a los acordes mayores; úsala sobre Imaj7 e Imaj9 para un ambiente cinematográfico y etéreo."
+      },
+      "locrian": {
+        "origin": "Séptimo modo de la escala mayor, raramente usado como centro tonal por su extrema inestabilidad desde la Edad Media.",
+        "character": "Tensa e inestable, se siente suspendida y sin resolver; como estar al borde de un precipicio.",
+        "theory": "El modo natural más disonante, caracterizado por b2 y b5 cerca de la tónica, generando máxima tensión.",
+        "tips": "Mejor como color de paso sobre acordes disminuidos o semidisminuidos; evita usarla como centro tonal."
+      },
+      "harmonicMinor": {
+        "origin": "Creada en el siglo XVIII para restaurar la sensible en las tonalidades menores, uniendo la armonía clásica con sonidos orientales exóticos.",
+        "character": "Misteriosa y exótica, con un aire arabesco; evoca cortes antiguas y tensión dramática.",
+        "theory": "Menor Natural con 7ª elevada, creando un gran salto (3 semitonos) entre los grados 6 y 7.",
+        "tips": "Ideal para piezas neoclásicas, metal y melodías de inspiración oriental; funciona sobre i, III, VI, VII."
+      },
+      "melodicMinor": {
+        "origin": "Desarrollada en el siglo XVIII para suavizar el movimiento melódico en tonalidades menores, luego adoptada como base de la armonía jazz.",
+        "character": "Elegante y refinada, mezcla la gravedad del menor con una cualidad clara y ascendente; como el tema de un caballero noble.",
+        "theory": "Menor Natural con 6ª y 7ª elevadas (forma ascendente), haciéndola sonar como una escala mayor con b3.",
+        "tips": "La escala madre de la improvisación jazz; esencial sobre i7, ii7 y dominantes alterados en jazz y fusion."
+      },
+      "lydianDominant": {
+        "origin": "Escala sintética (no derivada de la mayor) popularizada en jazz por su cualidad soñadora pero inestable sobre acordes dominantes.",
+        "character": "Burbujeante y caleidoscópica, suena como una escala mayor refractada; juguetona pero sin resolver.",
+        "theory": "Como Lidia (4ª aumentada) pero con 7ª rebajada (b7), combinando brillo con tensión de dominante.",
+        "tips": "Tócala sobre acordes de dominante 7 que resuelven a iim7; aporta un sonido moderno y luminoso al jazz y la fusion."
+      },
+      "altered": {
+        "origin": "Derivada de la Super Locria omitiendo la quinta justa, se volvió central en el jazz tras el bebop como la escala definitiva de dominante alterada.",
+        "character": "Ultratensa y cromática, suena como una tormenta de notas en movimiento constante; caótica pero controlada.",
+        "theory": "Como Locria pero con 1ª y 2ª elevadas, eliminando la quinta justa y añadiendo múltiples tensiones (b9, #9, #11, b13).",
+        "tips": "La escala de referencia para acordes de dominante 7 que requieren tensiones alteradas (b9, #9, #11, b13); úsala con moderación para efecto dramático."
+      },
+      "wholeTone": {
+        "origin": "Escala simétrica de seis notas descubierta en el siglo XIX, apreciada por compositores impresionistas como Debussy por su cualidad onírica.",
+        "character": "Etérea y flotante, disuelve el sentido de tonalidad creando una atmósfera de asombro suspendido.",
+        "theory": "Todos los intervalos son tonos enteros (2 semitonos), lo que la hace simétrica y ambigua; solo existen dos transposiciones.",
+        "tips": "Úsala para pasajes ambientales, impresionistas o surrealistas; funciona bien sobre acordes aumentados (C+, C7+) como relleno colorido."
+      },
+      "halfWholeDiminished": {
+        "origin": "Escala simétrica de ocho notas nacida en el bebop, usada para recorrer de forma organizada las notas cromáticas de un acorde dominante.",
+        "character": "Densa e inquieta, suena como una cascada de fichas de dominó; intensa pero controlada.",
+        "theory": "Empieza con un semitono y luego tono entero alternando (S-T), generando el máximo movimiento cromático en ocho notas.",
+        "tips": "Efectiva sobre dominantes alterados y como sustituto de dominante; ideal para líneas bebop y pasajes cromáticos."
+      },
+      "bebopDominant": {
+        "origin": "Creada por los pioneros del bebop en los años 40 añadiendo una nota cromática de paso a la escala mixolidia para improvisaciones más fluidas.",
+        "character": "Energética y propulsiva, swinguea con un impulso constante; el sonido de una fiesta en pleno apogeo.",
+        "theory": "Escala mixolidia con una 7ª mayor añadida (antes de la fundamental) como nota cromática de paso para suavizar la resolución b7-fundamental.",
+        "tips": "Pensada para pasajes rápidos en acordes de dominante; aporta drive y momentum a la improvisación de jazz y bebop."
+      }
+    }
   },
   "genres": {
     "pop": "Pop",
