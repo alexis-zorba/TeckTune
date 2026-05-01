@@ -67,6 +67,13 @@
         "desc": "El Pop y el Rock Clásico prosperan con la Jónica (Mayor) y la Pentatónica Mayor para melodías brillantes. La Eólica (Menor Natural) es la escala de referencia para baladas emotivas. En la música clásica, la Menor Armónica y la Menor Melódica añaden complejidad armónica."
       }
     },
+    "filters": {
+      "label": "Filtrar por género:",
+      "all": "Todos los géneros",
+      "noResults": "No se encontraron escalas para este género."
+    },
+    "playScale": "Escuchar la escala",
+    "playScaleAria": "Reproducir la escala {{scale}}",
     "scales": {
       "title": "Colores de las Escalas y Canciones Famosas",
       "referenceSongs": "Canciones de Referencia:",

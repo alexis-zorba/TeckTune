@@ -67,6 +67,13 @@
         "desc": "La Pop et le Classic Rock prospèrent sur l'Ionien (Majeur) et la Pentatonique Majeure pour des mélodies lumineuses. L'Éolien (Mineur Naturel) est la gamme de référence pour les ballades émotionnelles. Dans la musique classique, le Mineur Harmonique et le Mineur Mélodique ajoutent de la complexité harmonique."
       }
     },
+    "filters": {
+      "label": "Filtrer par genre :",
+      "all": "Tous les genres",
+      "noResults": "Aucune gamme trouvée pour ce genre."
+    },
+    "playScale": "Écouter la gamme",
+    "playScaleAria": "Jouer la gamme {{scale}}",
     "scales": {
       "title": "Couleurs des Gammes et Chansons Célèbres",
       "referenceSongs": "Chansons de Référence :",

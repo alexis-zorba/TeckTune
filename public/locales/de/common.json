@@ -67,6 +67,13 @@
         "desc": "Pop und Classic Rock gedeihen auf Ionisch (Dur) und der Dur-Pentatonik für helle Melodien. Äolisch (Moll) ist die bevorzugte Tonleiter für emotionale Balladen. In der klassischen Musik fügen harmonisches Moll und melodisches Moll harmonische Komplexität hinzu."
       }
     },
+    "filters": {
+      "label": "Nach Genre filtern:",
+      "all": "Alle Genres",
+      "noResults": "Keine Tonleitern für dieses Genre gefunden."
+    },
+    "playScale": "Tonleiter anhören",
+    "playScaleAria": "Tonleiter {{scale}} abspielen",
     "scales": {
       "title": "Farben der Tonleitern und berühmte Songs",
       "referenceSongs": "Referenz-Songs:",

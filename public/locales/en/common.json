@@ -67,6 +67,13 @@
         "desc": "Pop and Classic Rock thrive on the Ionian (Major) and the Major Pentatonic for bright melodies. Aeolian (Natural Minor) is the go-to scale for emotional ballads. In classical music, Harmonic Minor and Melodic Minor add harmonic complexity."
       }
     },
+    "filters": {
+      "label": "Filter by genre:",
+      "all": "All genres",
+      "noResults": "No scales found for this genre."
+    },
+    "playScale": "Listen to scale",
+    "playScaleAria": "Play {{scale}} scale",
     "scales": {
       "title": "Scale Colors and Famous Songs",
       "referenceSongs": "Reference Songs:",

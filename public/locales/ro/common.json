@@ -67,6 +67,13 @@
         "desc": "Pop-ul și Rock-ul Clasic prosperă pe Ionica (Majoră) și Pentatonica Majoră pentru melodii luminoase. Eolica (Minoră Naturală) este gama de referință pentru balade emoționale. În muzica clasică, Minora Armonică și Minora Melodică adaugă complexitate armonică."
       }
     },
+    "filters": {
+      "label": "Filtrează după gen:",
+      "all": "Toate genurile",
+      "noResults": "Nu s-au găsit game pentru acest gen."
+    },
+    "playScale": "Ascultă gama",
+    "playScaleAria": "Redă gama {{scale}}",
     "scales": {
       "title": "Culorile Gamelor și Cântece Celebre",
       "referenceSongs": "Cântece de Referință:",

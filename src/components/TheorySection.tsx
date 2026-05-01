@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { cn } from '../lib/utils';
-import { Library, Music4, Lightbulb, Guitar, BookOpen } from 'lucide-react';
+import { Library, Music4, Lightbulb, Guitar, BookOpen, Play } from 'lucide-react';
 import { SCALES } from '../lib/music';
+import { playScale } from '../lib/audio';
 import { useTranslation } from '../i18n';
 
 type Tab = 'styles' | 'scales' | 'improv' | 'guide';
@@ -29,7 +30,19 @@ const SCALE_GUIDE_KEY_MAP: Record<string, string> = {
 export function TheorySection() {
   const [activeTab, setActiveTab] = useState<Tab>('styles');
   const [openScale, setOpenScale] = useState<string | null>(null);
+  const [selectedGenre, setSelectedGenre] = useState<string>('all');
   const { t } = useTranslation();
+
+  const guideGenres = Array.from(new Set(SCALES.flatMap((scale) => scale.styles)));
+  const filteredGuideScales = selectedGenre === 'all'
+    ? SCALES
+    : SCALES.filter((scale) => scale.styles.includes(selectedGenre));
+
+  const translateGenre = (genre: string) => {
+    const key = `genres.${genre.toLowerCase()}`;
+    const translated = t(key);
+    return translated !== key ? translated : genre;
+  };
 
   return (
     <section className="mt-16 border-t border-white/10 pt-16">
@@ -246,62 +259,125 @@ export function TheorySection() {
               <h3 className="text-xl font-bold text-white mb-2">{t('guide.title')}</h3>
               <p className="text-white/60 text-sm">{t('guide.subtitle')}</p>
             </div>
-            
-            {SCALES.map((scale) => {
-              const guideKey = SCALE_GUIDE_KEY_MAP[scale.name];
-              if (!guideKey) return null;
-              const isOpen = openScale === scale.name;
-              
-              return (
-                <div
-                  key={scale.name}
-                  className="rounded-xl border border-white/10 overflow-hidden transition-all duration-300"
-                >
-                  {/* Header accordion */}
-                  <button
-                    onClick={() => setOpenScale(isOpen ? null : scale.name)}
-                    className="w-full flex items-center justify-between px-5 py-4 bg-white/5 hover:bg-white/10 transition-colors text-left"
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className="text-[#F27D26] font-semibold text-sm">
-                        {t(`scales.${guideKey}`)}
-                      </span>
-                      <div className="flex gap-1 flex-wrap">
-                        {scale.styles.map((style) => (
-                          <span
-                            key={style}
-                            className="text-[10px] px-2 py-0.5 rounded-full bg-white/10 text-white/50"
-                          >
-                            {t(`genres.${style.toLowerCase()}`) !== `genres.${style.toLowerCase()}` 
-                              ? t(`genres.${style.toLowerCase()}`) 
-                              : style}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-                    <span className={`text-white/40 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  
-                  {/* Corpo accordion */}
-                  {isOpen && (
-                    <div className="px-5 py-4 bg-white/[0.02] grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-top-2 duration-300">
-                      {(['origin', 'character', 'theory', 'tips'] as const).map((field) => (
-                        <div key={field} className="space-y-1">
-                          <div className="text-xs font-semibold text-[#F27D26]/80 uppercase tracking-wider">
-                            {t(`guide.labels.${field}`)}
-                          </div>
-                          <p className="text-white/70 text-sm leading-relaxed">
-                            {t(`guide.scales.${guideKey}.${field}`)}
-                          </p>
-                        </div>
-                      ))}
-                    </div>
+
+            <div className="mb-6 flex flex-col gap-3">
+              <div className="text-xs font-semibold uppercase tracking-wider text-white/50">
+                {t('guide.filters.label')}
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedGenre('all');
+                    setOpenScale(null);
+                  }}
+                  className={cn(
+                    'px-3 py-1.5 rounded-full text-xs font-medium border transition-colors',
+                    selectedGenre === 'all'
+                      ? 'bg-[#F27D26] text-white border-[#F27D26]'
+                      : 'bg-white/5 text-white/60 border-white/10 hover:border-[#F27D26]/50 hover:text-white'
                   )}
-                </div>
-              );
-            })}
+                >
+                  {t('guide.filters.all')}
+                </button>
+
+                {guideGenres.map((genre) => (
+                  <button
+                    key={genre}
+                    type="button"
+                    onClick={() => {
+                      setSelectedGenre(genre);
+                      setOpenScale(null);
+                    }}
+                    className={cn(
+                      'px-3 py-1.5 rounded-full text-xs font-medium border transition-colors',
+                      selectedGenre === genre
+                        ? 'bg-[#F27D26] text-white border-[#F27D26]'
+                        : 'bg-white/5 text-white/60 border-white/10 hover:border-[#F27D26]/50 hover:text-white'
+                    )}
+                  >
+                    {translateGenre(genre)}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {filteredGuideScales.length === 0 ? (
+              <div className="p-6 rounded-xl bg-white/5 border border-white/10 text-white/60 text-sm text-center">
+                {t('guide.filters.noResults')}
+              </div>
+            ) : (
+              <div className="space-y-3">
+                {filteredGuideScales.map((scale) => {
+                  const guideKey = SCALE_GUIDE_KEY_MAP[scale.name];
+                  if (!guideKey) return null;
+                  const isOpen = openScale === scale.name;
+
+                  return (
+                    <div
+                      key={scale.name}
+                      className="rounded-xl border border-white/10 overflow-hidden transition-all duration-300"
+                    >
+                      <div className="relative">
+                        <button
+                          type="button"
+                          onClick={() => setOpenScale(isOpen ? null : scale.name)}
+                          aria-expanded={isOpen}
+                          className="w-full flex items-center justify-between px-5 py-4 bg-white/5 hover:bg-white/10 transition-colors text-left pr-24"
+                        >
+                          <div className="flex items-center gap-3 min-w-0 flex-wrap">
+                            <span className="text-[#F27D26] font-semibold text-sm">
+                              {t(`scales.${guideKey}`)}
+                            </span>
+                            <div className="flex gap-1 flex-wrap">
+                              {scale.styles.map((style) => (
+                                <span
+                                  key={style}
+                                  className="text-[10px] px-2 py-0.5 rounded-full bg-white/10 text-white/50"
+                                >
+                                  {translateGenre(style)}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                          <span className={`text-white/40 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
+                            ▼
+                          </span>
+                        </button>
+
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            void playScale(0, scale.intervals, 'acoustic');
+                          }}
+                          title={t('guide.playScale')}
+                          aria-label={t('guide.playScaleAria', { scale: t(`scales.${guideKey}`) })}
+                          className="absolute right-10 top-1/2 -translate-y-1/2 flex items-center justify-center w-8 h-8 rounded-full bg-[#F27D26]/15 text-[#F27D26] hover:bg-[#F27D26] hover:text-white transition-colors"
+                        >
+                          <Play size={14} fill="currentColor" />
+                        </button>
+                      </div>
+
+                      {isOpen && (
+                        <div className="px-5 py-4 bg-white/[0.02] grid grid-cols-1 md:grid-cols-2 gap-4 animate-in fade-in slide-in-from-top-2 duration-300">
+                          {(['origin', 'character', 'theory', 'tips'] as const).map((field) => (
+                            <div key={field} className="space-y-1">
+                              <div className="text-xs font-semibold text-[#F27D26]/80 uppercase tracking-wider">
+                                {t(`guide.labels.${field}`)}
+                              </div>
+                              <p className="text-white/70 text-sm leading-relaxed">
+                                {t(`guide.scales.${guideKey}.${field}`)}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
         )}
       </div>

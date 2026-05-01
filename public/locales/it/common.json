@@ -67,6 +67,13 @@
         "desc": "Pop e Classic Rock prosperano sulla Ionica (Maggiore) e la Pentatonica Maggiore per melodie brillanti. L'Eolia (Minore Naturale) è la scala di riferimento per ballad emotive. Nella musica classica, Minore Armonica e Minore Melodica aggiungono complessità armonica."
       }
     },
+    "filters": {
+      "label": "Filtra per genere:",
+      "all": "Tutti i generi",
+      "noResults": "Nessuna scala trovata per questo genere."
+    },
+    "playScale": "Ascolta la scala",
+    "playScaleAria": "Riproduci la scala {{scale}}",
     "scales": {
       "title": "Colori delle Scale e Brani Celebri",
       "referenceSongs": "Brani di Riferimento:",
