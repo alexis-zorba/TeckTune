@@ -2,6 +2,8 @@
   <img src="public/logo.svg" alt="TeckTune Logo" width="120" height="120" />
   <h1>TeckTune</h1>
   <p><strong>Interactive Guitar Fretboard Explorer</strong></p>
+
+  <p>https://tecktune.netlify.app/</p>
 </div>
 
 <!-- screenshot -->
